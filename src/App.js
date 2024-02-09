@@ -1,13 +1,21 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import GlobalStyle from "./utils/GlobalStyle";
 import MainPage from "./pages/MainPage";
+import Layout from "./pages/Layout";
+import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-      </Routes>
-    </Router>
+    <>
+      <GlobalStyle />
+      <Router>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<MainPage />} />
+          </Route>
+        </Routes>
+      </Router>
+    </>
   );
 }
 

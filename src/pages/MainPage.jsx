@@ -1,14 +1,10 @@
 import React from "react";
-import MainPageComp from "../component/main/MainPageStyle";
+import MainBanner from "../component/main/MainBanner";
 
 const MainPage = () => {
   return (
     <>
-      <MainPageComp>
-        <div className="container">
-          <div className="main">안녕하세요.</div>
-        </div>
-      </MainPageComp>
+      <MainBanner />
     </>
   );
 };
