@@ -1,5 +1,5 @@
 import React from "react";
-import MainPageComp from "../component/MainPageStyle";
+import MainPageComp from "../component/main/MainPageStyle";
 
 const MainPage = () => {
   return (
