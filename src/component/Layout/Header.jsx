@@ -1,7 +1,4 @@
 import { useState } from "react";
-import AboutMe from "../main/AboutMe";
-import Skills from "../main/Skills";
-import Project from "../main/Project";
 import styled from "styled-components";
 
 const HeaderComp = styled.header`
@@ -34,11 +31,6 @@ const Header = () => {
           </li>
         </ul>
       </div>
-
-      {/* 각 섹션들 */}
-      <AboutMe active={activeSection === "about"} />
-      <Skills active={activeSection === "skills"} />
-      <Project active={activeSection === "project"} />
     </HeaderComp>
   );
 };
