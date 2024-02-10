@@ -2,11 +2,17 @@ import { useState } from "react";
 import styled from "styled-components";
 
 const HeaderComp = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* 다른 컨텐츠 위에 위치하도록 함 */
   .container {
     padding-top: 30px;
     .menu {
       display: flex;
       justify-content: end;
+      flex-direction: row;
       li {
         margin-right: 30px;
         button {
