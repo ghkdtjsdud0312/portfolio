@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 const AboutMeComp = styled.section`
   width: 100%;
@@ -47,11 +48,25 @@ const AboutMeComp = styled.section`
           font-size: 1.2em;
         }
       }
+      button {
+        padding: 10px;
+        border: none;
+        border: 2px solid white;
+        background-color: rgb(255, 192, 203);
+        cursor: pointer;
+      }
     }
   }
 `;
 
 const AboutMe = ({ active }) => {
+  const navigate = useNavigate();
+
+  // 자세히보기 버튼 누르면 이력서 pdf로 이동
+  const clickButton = () => {
+    navigate();
+  };
+
   return (
     <AboutMeComp id="about" active={active}>
       <div className="container">
@@ -85,6 +100,7 @@ const AboutMe = ({ active }) => {
             <p>introduce Me!</p>
             <span>상상했던 모든걸 현실로 만들어 낼 수 있는 황선영입니다!</span>
           </div>
+          <button onClick={clickButton}>More</button>
         </div>
       </div>
     </AboutMeComp>

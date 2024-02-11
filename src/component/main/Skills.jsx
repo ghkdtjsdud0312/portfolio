@@ -19,6 +19,7 @@ const SkillsComp = styled.section`
       height: 500px;
       text-align: center;
       padding-top: 20px;
+      box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       h2 {
         font-size: 2em;
       }
