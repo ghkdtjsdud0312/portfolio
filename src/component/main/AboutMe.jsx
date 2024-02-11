@@ -98,7 +98,10 @@ const AboutMe = ({ active }) => {
         <div className="content2">
           <div>
             <p>introduce Me!</p>
-            <span>상상했던 모든걸 현실로 만들어 낼 수 있는 황선영입니다!</span>
+            <span>
+              상상했던 모든걸 현실로 만들어 낼 수 있는
+              황선영입니다!(깃주소,노션,커리어 추가하기)
+            </span>
           </div>
           <button onClick={clickButton}>More</button>
         </div>
