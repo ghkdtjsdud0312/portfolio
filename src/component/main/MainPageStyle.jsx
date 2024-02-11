@@ -8,10 +8,13 @@ const MainPageComp = styled.section`
       margin-top: 1500px;
       text-align: center;
       opacity: 0;
-      transition: opacity 0.8s;
+      transition: opacity 1.8s;
       h1 {
-        color: red;
-        font-size: 3em;
+        color: pink;
+        font-size: 5em;
+        animation-duration: 0.3s;
+        animation-iteration-count: infinite;
+        animation-name: cursor;
       }
     }
   }

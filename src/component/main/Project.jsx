@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 500px;
-  background-color: ${(props) => (props.active ? "transparent" : "orange")};
+  height: 1000px;
+  background-color: ${(props) => (props.active ? "transparent" : "green")};
 `;
 
 const Project = ({ active }) => {

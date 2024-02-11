@@ -11,8 +11,12 @@ const HeaderComp = styled.header`
     padding-top: 30px;
     .menu {
       display: flex;
-      justify-content: end;
+      justify-content: start; /* 왼쪽 정렬로 변경 */
       flex-direction: row;
+      h2 {
+        font-weight: 600;
+        margin-right: auto; /* 오른쪽으로 이동 */
+      }
       li {
         margin-right: 30px;
         button {
@@ -47,6 +51,7 @@ const Header = () => {
     <HeaderComp>
       <div className="container">
         <ul className="menu">
+          <h2>SeonYoung's Portfolio</h2>
           <li>
             <button onClick={() => scrollToSection("about")}>About Me</button>
           </li>

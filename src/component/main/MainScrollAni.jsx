@@ -28,7 +28,12 @@ const MainScrollAni = () => {
     <MainPageComp>
       <div className="container">
         <div>
-          <h1>아래를 스크롤 하세요.</h1>
+          <h1>
+            아래를 스크롤 하세요.
+            <br />
+            V
+            <br />V
+          </h1>
         </div>
         <div>
           <h1>2번째 페이지</h1>
