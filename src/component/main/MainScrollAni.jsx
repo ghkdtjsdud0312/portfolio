@@ -49,10 +49,11 @@ const MainScrollAni = () => {
           <h2>{Text}</h2>
         </div>
         <div className="text2">
-          <p>
+          <h3>
             신입 프론트 개발자, 포트폴리오 소개 사이트에 오신걸 환영합니다 :)
-          </p>
-          <p>제가 궁금하신가요? 궁금하시면 아래로 스크롤 해보세요!</p>
+          </h3>
+          <p>제가 궁금하시면 아래로 스크롤 해보세요!</p>
+          <span>⇣</span>
         </div>
       </div>
     </MainPageComp>
