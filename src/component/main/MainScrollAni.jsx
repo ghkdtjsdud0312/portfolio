@@ -1,7 +1,8 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import MainPageComp from "./MainPageStyle";
 
 const MainScrollAni = () => {
+  // 반짝이는 효과
   const observer = useRef(
     new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -24,25 +25,34 @@ const MainScrollAni = () => {
     };
   }, []);
 
+  // 타이핑 효과
+  const txt = `신입 프론트 개발자 포트폴리오`;
+  const [Text, setText] = useState("");
+  const [Count, setCount] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setText(Text + txt[Count]); // 이전 set한 문자 + 다음 문자
+      setCount(Count + 1); // 개수 만큼 체크
+    }, 100);
+    if (Count === txt.length) {
+      // Count를 따로 두지 않고 Text.length 체크도 가능
+      clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
+    }
+    return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다
+  });
+
   return (
     <MainPageComp>
       <div className="container">
-        <div>
-          <h1>
-            아래를 스크롤 하세요.
-            <br />
-            V
-            <br />V
-          </h1>
+        <div className="text">
+          <h2>{Text}</h2>
         </div>
-        <div>
-          <h1>2번째 페이지</h1>
-        </div>
-        <div>
-          <h1>3번째 페이지</h1>
-        </div>
-        <div>
-          <h1>4번째 페이지</h1>
+        <div className="text2">
+          <p>
+            신입 프론트 개발자, 포트폴리오 소개 사이트에 오신걸 환영합니다 :)
+          </p>
+          <p>제가 궁금하신가요? 궁금하시면 아래로 스크롤 해보세요!</p>
         </div>
       </div>
     </MainPageComp>

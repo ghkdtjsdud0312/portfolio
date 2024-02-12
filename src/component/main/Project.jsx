@@ -49,6 +49,10 @@ const ProjectComp = styled.section`
           border: 2px solid white;
           background-color: green;
           cursor: pointer;
+          &:hover {
+            background-color: darkgreen;
+            transition: all 0.8s;
+          }
         }
       }
     }
