@@ -58,8 +58,11 @@ const MainScrollAni = () => {
           <h2>{Text}</h2>
         </div>
         <div className="text2">
-          <h3>황선영's 포트폴리오 소개 사이트에 오신걸 환영합니다 :)</h3>
-          <p>제가 궁금하시면 아래로 스크롤 해보세요!</p>
+          <h3>
+            꼼꼼함과 문제해결을 갖춘 신입 프론트 개발자 포트폴리오에 오신걸
+            환영합니다 :)
+          </h3>
+          <p>황선영's 포트폴리오가 궁금하신가요?</p>
           <span>⇣</span>
           <div className="loadingBar"></div>
         </div>

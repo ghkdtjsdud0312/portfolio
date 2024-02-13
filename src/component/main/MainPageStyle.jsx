@@ -24,7 +24,6 @@ const MainPageComp = styled.section`
     }
     .text {
       text-align: center;
-
       h2 {
         color: white;
         font-size: 5em;

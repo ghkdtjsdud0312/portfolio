@@ -2,18 +2,17 @@ import styled from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 950px;
+  height: 1300px;
   background-color: ${(props) => (props.active ? "transparent" : "green")};
   .container {
-    padding-top: 60px;
     .box {
       border: 2px solid black;
       border-radius: 10px;
-      height: 270px;
+      height: 400px;
       background-color: #c1e1c12e;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-      margin-bottom: 10px;
-      padding-top: 20px;
+      margin-bottom: 50px;
+      padding-top: 10px;
       h2 {
         text-align: center;
       }
@@ -25,14 +24,16 @@ const ProjectComp = styled.section`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
-        gap: 5px;
+        gap: 10px;
         .content1 {
           line-height: 30px;
+          h3 {
+          }
           p {
           }
           img {
-            width: 50px;
-            height: 50px;
+            width: 150px;
+            height: 100px;
           }
         }
         .content2 {
@@ -44,7 +45,8 @@ const ProjectComp = styled.section`
       .button {
         text-align: center;
         button {
-          padding: 10px;
+          width: 10%;
+          height: 30px;
           border: none;
           border: 2px solid white;
           background-color: green;
@@ -66,21 +68,47 @@ const Project = ({ active }) => {
         <h2>Project</h2>
         <div className="container">
           <div className="box">
-            <h2>제목</h2>
-            <h4>프로젝트 기간</h4>
+            <h2>클론페이지</h2>
+            <h4>2023.10.09 ~ 2023.10.16</h4>
             <div className="box2">
               <div className="content1">
-                <p>포트폴리오 이름</p>
+                <p>대한항공 클론페이지</p>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/17.%EC%9A%B8%EB%A6%89%EB%8F%84%20%EC%B9%B4%ED%8E%98%EC%9A%B8%EB%9D%BC.jpg?alt=media&token=a3b51bf2-913d-47f3-bcea-bb5995b12c2c"
-                  alt="포폴사진"
+                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/logo--koreanair-pc.png?alt=media&token=ed162c1c-fcec-4688-a2a1-cdec902c5bd0"
+                  alt="대한항공 로고 사진"
                 />
               </div>
               <div className="content2">
-                <p>내용1</p>
-                <p>내용2</p>
-                <p>내용3</p>
-                <p>내용4</p>
+                <h3>주제 선정 이유</h3>
+                <h3>구현 내용</h3>
+                <h3>사용 기술</h3>
+              </div>
+            </div>
+            <div className="button">
+              <button onClick={() => {}}>More</button>
+            </div>
+          </div>
+          <div className="box">
+            <h2>WOB(WorkOut Buddy) - 운동 메이트 구하기</h2>
+            <h4>2023.12.6 ~ 2024.01.03</h4>
+            <div className="box2">
+              <div className="content1">
+                <p>WorkOut Buddy</p>
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wob-logo.png?alt=media&token=53d56dac-cf54-4fdf-9842-a5d367a8e67d"
+                  alt="wob 로고 사진"
+                />
+              </div>
+              <div className="content2">
+                <h3>주제 선정 이유</h3>
+                <p>
+                  모임은 싫지만 운동 친구가 필요할 때! 집 근처나 현재 있는
+                  위치에 같은 종목운동을 원하는 사람들과 함께 실시간으로
+                  채팅하여 만나는 사이트
+                </p>
+                <h3>전체 프로젝트 설명</h3>
+                <h3>내가 맡은 부분</h3>
+                <h3>구현 기능 및 사용 기술</h3>
               </div>
             </div>
             <div className="button">
@@ -89,43 +117,24 @@ const Project = ({ active }) => {
           </div>
 
           <div className="box">
-            <h2>제목</h2>
-            <h4>프로젝트 기간</h4>
+            <h2>씨네픽(CinePic)</h2>
+            <h4>2024.01.17 ~ 2024.02.21</h4>
             <div className="box2">
               <div className="content1">
-                <p>포트폴리오 이름</p>
+                <p>CinePic</p>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/17.%EC%9A%B8%EB%A6%89%EB%8F%84%20%EC%B9%B4%ED%8E%98%EC%9A%B8%EB%9D%BC.jpg?alt=media&token=a3b51bf2-913d-47f3-bcea-bb5995b12c2c"
+                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/CinePicLogo.png?alt=media&token=5f8c28c4-af90-403f-a26c-935b5fc9bc57"
                   alt="포폴사진"
                 />
               </div>
               <div className="content2">
-                <p>내용1</p>
-                <p>내용2</p>
-                <p>내용3</p>
-                <p>내용4</p>
-              </div>
-            </div>
-            <div className="button">
-              <button onClick={() => {}}>More</button>
-            </div>
-          </div>
-          <div className="box">
-            <h2>제목</h2>
-            <h4>프로젝트 기간</h4>
-            <div className="box2">
-              <div className="content1">
-                <p>포트폴리오 이름</p>
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/17.%EC%9A%B8%EB%A6%89%EB%8F%84%20%EC%B9%B4%ED%8E%98%EC%9A%B8%EB%9D%BC.jpg?alt=media&token=a3b51bf2-913d-47f3-bcea-bb5995b12c2c"
-                  alt="포폴사진"
-                />
-              </div>
-              <div className="content2">
-                <p>내용1</p>
-                <p>내용2</p>
-                <p>내용3</p>
-                <p>내용4</p>
+                <h3>주제 선정 이유</h3>
+                <p>
+                  사용자 맞춤 영화 추천 및 커뮤니티를 활용한 영화 플랫폼 사이트
+                </p>
+                <h3>프로젝트 설명</h3>
+                <h3>내가 맡은 부분</h3>
+                <h3>구현 기능 및 사용 기술</h3>
               </div>
             </div>
             <div className="button">
