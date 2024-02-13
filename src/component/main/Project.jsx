@@ -63,6 +63,7 @@ const Project = ({ active }) => {
   return (
     <>
       <ProjectComp id="project" active={active}>
+        <h2>Project</h2>
         <div className="container">
           <div className="box">
             <h2>제목</h2>

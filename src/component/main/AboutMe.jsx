@@ -69,6 +69,7 @@ const AboutMe = ({ active }) => {
 
   return (
     <AboutMeComp id="about" active={active}>
+      <h2>About Me</h2>
       <div className="container">
         <h2>안녕하세요! 프론트 개발자를 꿈꾸는 황선영입니다.</h2>
         <div className="profile">

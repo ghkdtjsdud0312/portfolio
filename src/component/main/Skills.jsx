@@ -49,6 +49,7 @@ const SkillsComp = styled.section`
 const Skills = ({ active }) => {
   return (
     <SkillsComp id="skills" active={active}>
+      <h2>skill</h2>
       <div className="container">
         <div className="box">
           <h2>FrontEnd</h2>
