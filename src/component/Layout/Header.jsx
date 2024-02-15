@@ -3,29 +3,26 @@ import styled from "styled-components";
 
 const HeaderComp = styled.header`
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 25px;
+  left: -100px;
   width: 100%;
   z-index: 999; /* 다른 컨텐츠 위에 위치하도록 함 */
   .container {
-    padding-top: 30px;
     .menu {
-      display: flex;
-      justify-content: start; /* 왼쪽 정렬로 변경 */
-      flex-direction: row;
+      display: flex; /* 메뉴 항목들을 가로로 배열 */
       h2 {
         font-weight: 600;
-        margin-right: auto; /* 오른쪽으로 이동 */
+        margin-right: auto;
       }
       li {
-        margin-right: 30px;
+        margin: 0 auto;
         button {
           border: none;
-          background-color: white;
           border-bottom: 1px solid var(--GREY);
           font-weight: 600;
           font-size: 1.5em;
           cursor: pointer;
+          background: transparent; /* 배경색 투명하게 설정 */
           &:hover {
             color: var(--DARKGREY);
           }
@@ -51,7 +48,9 @@ const Header = () => {
     <HeaderComp>
       <div className="container">
         <ul className="menu">
-          <h2>SeonYoung's Portfolio</h2>
+          <li>
+            <h2>SeonYoung's Portfolio</h2>
+          </li>
           <li>
             <button onClick={() => scrollToSection("about")}>About Me</button>
           </li>

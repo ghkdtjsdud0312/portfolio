@@ -58,7 +58,7 @@ const MainScrollAni = () => {
           <span>⇣</span>
         </div>
         <div className="button">
-          <button>See More</button>
+          <button>이력서 보기</button>
         </div>
       </div>
     </MainPageComp>
