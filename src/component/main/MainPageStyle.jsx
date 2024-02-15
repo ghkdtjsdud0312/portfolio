@@ -1,27 +1,27 @@
 import { styled } from "styled-components";
-import mainBg from "../../images/main.jpg";
+import mainBg from "../../images/cloud.jpg";
 
 const MainPageComp = styled.section`
+  line-height: 70px;
+  position: relative;
+  height: 900px;
+  padding-top: 20%;
+  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(${mainBg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(8px); /* 배경을 5px만큼 흐리게 */
+    z-index: -1; /* 텍스트보다 뒤에 배치 */
+  }
   .container {
-    line-height: 70px;
-    position: relative;
-    height: 900px;
-    padding-top: 20%;
-    overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url(${mainBg});
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      filter: blur(8px); /* 배경을 5px만큼 흐리게 */
-      z-index: -1; /* 텍스트보다 뒤에 배치 */
-    }
     .text {
       text-align: center;
       h2 {

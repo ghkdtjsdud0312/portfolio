@@ -5,7 +5,7 @@ const SkillsComp = styled.section`
   padding-top: 80px;
   padding-left: 50px;
   height: 1200px;
-  background-color: ${(props) => (props.active ? "transparent" : "orange")};
+  background-color: ${(props) => (props.active ? "transparent" : "#CFE7EA")};
   .container {
     width: 100%;
     display: grid;
@@ -14,6 +14,7 @@ const SkillsComp = styled.section`
     .box {
       padding: 10px;
       background-color: #fff;
+      border: 1px solid #303030;
       border-radius: 10px;
       width: 80%;
       height: 500px;

@@ -50,7 +50,7 @@ const GlobalStyle = createGlobalStyle`
  
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--RED); 
+    background: var(--BLACK); 
   }
 
   /* Handle on hover */

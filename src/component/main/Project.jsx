@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 1300px;
-  background-color: ${(props) => (props.active ? "transparent" : "green")};
+  height: 1500px;
+  background-color: ${(props) => (props.active ? "transparent" : "#CFE7EA")};
   .container {
     .box {
       border: 2px solid black;
       border-radius: 10px;
       height: 400px;
-      background-color: #c1e1c12e;
+      background-color: white;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       margin-bottom: 50px;
       padding-top: 10px;

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const AboutMeComp = styled.section`
   width: 100%;
   height: 1000px;
-  background-color: ${(props) => (props.active ? "transparent" : "pink")};
+  background-color: ${(props) => (props.active ? "transparent" : "#CFE7EA")};
   .container {
     padding-top: 30px;
     h2 {
