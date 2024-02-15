@@ -26,7 +26,7 @@ const MainScrollAni = () => {
   }, []);
 
   // 타이핑 효과
-  const txt = `신입 프론트 개발자 포트폴리오`;
+  const txt = `FRONTEND DEVELOPER PORTFOLIO`;
   const [Text, setText] = useState("");
   const [Count, setCount] = useState(0);
 
@@ -38,13 +38,6 @@ const MainScrollAni = () => {
     if (Count === txt.length) {
       // Count를 따로 두지 않고 Text.length 체크도 가능
       clearInterval(interval); // 문자열 체크를 통해 setInterval 해제
-      // 로딩이 끝나면 페이지 아래로 스크롤
-      setTimeout(() => {
-        window.scrollTo({
-          top: window.innerHeight, // 현재 보이는 화면의 높이만큼 스크롤합니다.
-          behavior: "smooth", // 부드러운 스크롤 효과 적용
-        });
-      }, 5000); // 5초 후에 스크롤 이동합니다.
     }
     return () => clearInterval(interval); // 언마운트시 setInterval 해제
   });
@@ -59,12 +52,13 @@ const MainScrollAni = () => {
         </div>
         <div className="text2">
           <h3>
-            꼼꼼함과 문제해결을 갖춘 신입 프론트 개발자 포트폴리오에 오신걸
-            환영합니다 :)
+            상상을 현실로 잇는 <br />
+            프론트엔드 개발자 포트폴리오에 오신걸 환영합니다 :)
           </h3>
-          <p>황선영's 포트폴리오가 궁금하신가요?</p>
           <span>⇣</span>
-          <div className="loadingBar"></div>
+        </div>
+        <div className="button">
+          <button>See More</button>
         </div>
       </div>
     </MainPageComp>
