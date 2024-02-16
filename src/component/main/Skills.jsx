@@ -4,7 +4,7 @@ import styled from "styled-components";
 const SkillsComp = styled.section`
   width: 100%;
   padding-top: 80px;
-  height: 2670px;
+  height: 2300px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
@@ -12,12 +12,13 @@ const SkillsComp = styled.section`
     font-weight: 600;
   }
   .container {
-    width: 70%;
-    margin-left: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
     .box {
       padding: 20px;
       background-color: #fff;
-      border: 1px solid #303030;
       border-radius: 10px;
       text-align: center;
       margin-top: 10%;
@@ -36,12 +37,9 @@ const SkillsComp = styled.section`
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding: 55px;
+        padding: 40px;
         img {
-          width: 25%;
-          &:hover {
-            cursor: pointer;
-          }
+          width: 35%;
         }
       }
     }
@@ -60,23 +58,25 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/image-removebg-preview.png?alt=media&token=c09b94c7-d660-4253-9bc1-9743377865f2"
                 alt="html,css,js_logo"
-                style={{ width: "45%" }}
+                style={{ width: "50%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/react%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9-removebg-preview.png?alt=media&token=ca6043e4-79da-4cd2-8480-79b15a87af29"
                 alt="react_logo"
-                style={{ width: "45%" }}
+                style={{ width: "50%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/react-native-768x890-removebg-preview.png?alt=media&token=3bbfe444-f8ce-42c3-9bb5-76c80af6b8b6"
                 alt="react-native_logo"
                 style={{
-                  width: "15%",
+                  width: "20%",
                   marginBottom: "20px",
                   paddingRight: "15px",
                 }}
               />
             </div>
+          </div>
+          <div className="box">
             <h3>BackEnd</h3>
             <div className="box2">
               <img
@@ -86,32 +86,36 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/java.png?alt=media&token=abc2ae69-1f2c-42dc-8c74-bc25fcbad799"
                 alt="java"
-                style={{ width: "15%", margin: "0 auto" }}
+                style={{ width: "20%", margin: "0 auto" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/python-removebg-preview.png?alt=media&token=f712ed2a-33ac-4f1d-b040-adb75ef0ddbe"
                 alt="python"
-                style={{ width: "15%" }}
+                style={{ width: "20%" }}
               />
             </div>
+          </div>
+          <div className="box">
             <h3>Framework</h3>
             <div className="box2">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/aws2-removebg-preview.png?alt=media&token=c2fe2b0c-4506-4e80-92aa-3d17c143efd4"
                 alt="AWS"
-                style={{ width: "15%" }}
+                style={{ width: "20%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5-removebg-preview.png?alt=media&token=1e3c76a7-e593-48a8-aee4-38a7debef208"
                 alt="Elasticsearch"
-                style={{ margin: "0 auto" }}
+                style={{ width: "45%", margin: "0 auto" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC.png?alt=media&token=f04cd4b9-f3b5-4d18-acd8-13b143aaa02f"
                 alt="Machine Learning"
-                style={{ width: "15%" }}
+                style={{ width: "20%" }}
               />
             </div>
+          </div>
+          <div className="box">
             <h3>DataBase</h3>
             <div className="box2">
               <img
@@ -128,58 +132,70 @@ const Skills = ({ active }) => {
                 alt="DBeaver"
               />
             </div>
+          </div>
+          <div
+            className="box"
+            style={{ gridColumn: "span 2", marginTop: "5%" }}>
             <h3>Tool</h3>
             <div
               className="box2"
               style={{
-                height: "650px",
                 display: "grid",
                 gridTemplateColumns: "repeat(3,1fr)",
-                gap: "35px",
+                gap: "20px",
                 paddingTop: "1px",
+                height: "550px",
               }}>
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/IntelliJ_IDEA-removebg-preview.png?alt=media&token=147db38f-8f7f-4adf-9b89-400d494499e6"
                 alt="intelliJ"
-                style={{ width: "35%", margin: "0 auto" }}
+                style={{ width: "25%", margin: "0 auto" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/vscode-removebg-preview.png?alt=media&token=486b8554-776d-43a3-8e3a-e8e02fd65f50"
                 alt="Visual Studio Code"
-                style={{ width: "80%" }}
+                style={{ width: "57%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A1%E1%86%B7-removebg-preview.png?alt=media&token=da83c5c3-3360-4cae-accb-2c1aa3217e33"
                 alt="Pycharm"
-                style={{ width: "90%" }}
+                style={{ width: "75%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/postman-removebg-preview.png?alt=media&token=38d8195a-ad37-4254-bc04-cde8f58e13bc"
                 alt="Postman"
-                style={{ width: "80%", marginLeft: "-30px", margin: "0 auto" }}
+                style={{
+                  width: "70%",
+                  marginLeft: "-30px",
+                  margin: "0 auto",
+                }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%89%E1%85%B3%E1%84%8B%E1%85%B0%E1%84%80%E1%85%A5.png?alt=media&token=e9711b9e-430f-4db5-bf84-d704af9c5b95"
                 alt="Swagger IU"
-                style={{ width: "80%" }}
+                style={{ width: "65%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%91%E1%85%B5%E1%84%80%E1%85%B3%E1%84%86%E1%85%A1-removebg-preview.png?alt=media&token=13b1a56b-044e-4fa2-b38e-7109638ef4eb"
                 alt="figma"
-                style={{ width: "80%" }}
+                style={{ width: "65%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wbs-removebg-preview.png?alt=media&token=bda1cabe-6286-48f8-a628-5d6eb5bfcdf8"
                 alt="wbs"
-                style={{ width: "40%", margin: "0 auto" }}
+                style={{ width: "28%", margin: "0 auto" }}
               />
             </div>
+          </div>
+          <div
+            className="box"
+            style={{ gridColumn: "span 2", marginTop: "5%" }}>
             <h3>Collaboration</h3>
             <div className="box2">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%B5%E1%86%BA%E1%84%92%E1%85%A5%E1%86%B8.webp?alt=media&token=fd5c4053-a890-408b-bc03-438fa2634d29"
                 alt="github"
-                style={{ width: "15%" }}
+                style={{ width: "13%" }}
               />
             </div>
           </div>

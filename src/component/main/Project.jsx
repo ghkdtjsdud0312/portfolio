@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 2000px;
+  height: 4000px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
