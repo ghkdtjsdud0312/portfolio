@@ -1,9 +1,10 @@
+import { useState } from "react";
 import styled from "styled-components";
 
 const SkillsComp = styled.section`
   width: 100%;
   padding-top: 80px;
-  height: 2500px;
+  height: 2670px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
@@ -11,7 +12,8 @@ const SkillsComp = styled.section`
     font-weight: 600;
   }
   .container {
-    width: 50%;
+    width: 70%;
+    margin-left: 10%;
     .box {
       padding: 20px;
       background-color: #fff;
@@ -22,6 +24,7 @@ const SkillsComp = styled.section`
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       h3 {
         font-size: 2em;
+        font-weight: 600;
         padding-top: 20px;
       }
       .box2 {
@@ -36,6 +39,9 @@ const SkillsComp = styled.section`
         padding: 55px;
         img {
           width: 25%;
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
@@ -65,7 +71,7 @@ const Skills = ({ active }) => {
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/react-native-768x890-removebg-preview.png?alt=media&token=3bbfe444-f8ce-42c3-9bb5-76c80af6b8b6"
                 alt="react-native_logo"
                 style={{
-                  width: "17%",
+                  width: "15%",
                   marginBottom: "20px",
                   paddingRight: "15px",
                 }}
@@ -80,12 +86,12 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/java.png?alt=media&token=abc2ae69-1f2c-42dc-8c74-bc25fcbad799"
                 alt="java"
-                style={{ width: "20%", margin: "0 auto" }}
+                style={{ width: "15%", margin: "0 auto" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/python-removebg-preview.png?alt=media&token=f712ed2a-33ac-4f1d-b040-adb75ef0ddbe"
                 alt="python"
-                style={{ width: "20%" }}
+                style={{ width: "15%" }}
               />
             </div>
             <h3>Framework</h3>
@@ -93,6 +99,7 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/aws2-removebg-preview.png?alt=media&token=c2fe2b0c-4506-4e80-92aa-3d17c143efd4"
                 alt="AWS"
+                style={{ width: "15%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5-removebg-preview.png?alt=media&token=1e3c76a7-e593-48a8-aee4-38a7debef208"
@@ -102,6 +109,7 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC.png?alt=media&token=f04cd4b9-f3b5-4d18-acd8-13b143aaa02f"
                 alt="Machine Learning"
+                style={{ width: "15%" }}
               />
             </div>
             <h3>DataBase</h3>
@@ -124,11 +132,11 @@ const Skills = ({ active }) => {
             <div
               className="box2"
               style={{
-                height: "500px",
+                height: "650px",
                 display: "grid",
                 gridTemplateColumns: "repeat(3,1fr)",
-                gap: "40px",
-                paddingTop: "12px",
+                gap: "35px",
+                paddingTop: "1px",
               }}>
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/IntelliJ_IDEA-removebg-preview.png?alt=media&token=147db38f-8f7f-4adf-9b89-400d494499e6"
@@ -163,7 +171,7 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wbs-removebg-preview.png?alt=media&token=bda1cabe-6286-48f8-a628-5d6eb5bfcdf8"
                 alt="wbs"
-                style={{ width: "50%", margin: "0 auto" }}
+                style={{ width: "40%", margin: "0 auto" }}
               />
             </div>
             <h3>Collaboration</h3>
@@ -171,6 +179,7 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%B5%E1%86%BA%E1%84%92%E1%85%A5%E1%86%B8.webp?alt=media&token=fd5c4053-a890-408b-bc03-438fa2634d29"
                 alt="github"
+                style={{ width: "15%" }}
               />
             </div>
           </div>
