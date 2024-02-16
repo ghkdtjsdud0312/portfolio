@@ -4,6 +4,11 @@ const ProjectComp = styled.section`
   width: 100%;
   height: 1500px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
+  h2 {
+    background-color: #fff;
+    padding: 70px;
+    font-weight: 600;
+  }
   .container {
     .box {
       border: 2px solid black;
@@ -64,8 +69,8 @@ const ProjectComp = styled.section`
 const Project = ({ active }) => {
   return (
     <>
-      <h2>Project</h2>
       <ProjectComp id="project" active={active}>
+        <h2>Project</h2>
         <div className="container">
           <div className="box">
             <h2>클론페이지</h2>

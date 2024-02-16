@@ -3,9 +3,13 @@ import styled from "styled-components";
 const SkillsComp = styled.section`
   width: 100%;
   padding-top: 80px;
-  padding-left: 50px;
   height: 1200px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
+  h2 {
+    background-color: #fff;
+    padding: 70px;
+    font-weight: 600;
+  }
   .container {
     width: 100%;
     display: grid;
@@ -50,8 +54,8 @@ const SkillsComp = styled.section`
 const Skills = ({ active }) => {
   return (
     <>
-      <h2>skill</h2>
       <SkillsComp id="skills" active={active}>
+        <h2>skill</h2>
         <div className="container">
           <div className="box">
             <h2>FrontEnd</h2>
