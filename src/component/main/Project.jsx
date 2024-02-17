@@ -10,22 +10,26 @@ const ProjectComp = styled.section`
     font-weight: 600;
   }
   .container {
+    display: flex;
+    align-items: center;
     .box {
-      border: 2px solid black;
+      width: 50%;
       border-radius: 10px;
       height: 400px;
       background-color: white;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-      margin-bottom: 50px;
-      padding-top: 10px;
+      margin-top: 50px;
+      margin-right: 10%;
       h2 {
-        text-align: center;
       }
       h4 {
-        padding-top: 10px;
         text-align: center;
       }
-      .box2 {
+      .text {
+        h3 {
+        }
+      }
+      /* .box2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align: center;
@@ -44,10 +48,10 @@ const ProjectComp = styled.section`
         .content2 {
           line-height: 30px;
           p {
-          }
-        }
-      }
-      .button {
+          } */
+    }
+  }
+  /* .button {
         text-align: center;
         button {
           width: 10%;
@@ -61,9 +65,9 @@ const ProjectComp = styled.section`
             transition: all 0.8s;
           }
         }
-      }
-    }
-  }
+      } */
+  /* }
+  } */
 `;
 
 const Project = ({ active }) => {
@@ -73,6 +77,19 @@ const Project = ({ active }) => {
         <h2>Project</h2>
         <div className="container">
           <div className="box">
+            <h2>WOB(WorkOut Buddy) - 운동 메이트 구하기</h2>
+            <h4>2023.12.6 ~ 2024.01.03</h4>
+          </div>
+          <div className="text">
+            <h3>주제 선정 이유</h3>
+          </div>
+          <div className="text">
+            <h3>구현 내용</h3>
+          </div>
+          <div className="text">
+            <h3>사용 기술</h3>
+          </div>
+          {/* <div className="box">
             <h2>클론페이지</h2>
             <h4>2023.10.09 ~ 2023.10.16</h4>
             <div className="box2">
@@ -145,7 +162,7 @@ const Project = ({ active }) => {
             <div className="button">
               <button onClick={() => {}}>More</button>
             </div>
-          </div>
+          </div> */}
         </div>
       </ProjectComp>
     </>

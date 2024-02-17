@@ -3,12 +3,19 @@ import styled from "styled-components";
 const SkillsComp = styled.section`
   width: 100%;
   padding-top: 80px;
-  height: 2300px;
+  height: 2600px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
     padding: 70px;
     font-weight: 600;
+  }
+  .content {
+    text-align: center;
+    padding-top: 20px;
+    p {
+      font-size: 2em;
+    }
   }
   .container {
     width: 100%;
@@ -50,6 +57,10 @@ const Skills = ({ active }) => {
     <>
       <SkillsComp id="skills" active={active}>
         <h2>skills</h2>
+        <div className="content">
+          <p>할 수 있어요!</p>
+          <p>어느 정도 있어요!</p>
+        </div>
         <div className="container">
           <div className="box">
             <h3>FrontEnd</h3>
