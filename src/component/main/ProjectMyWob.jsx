@@ -35,10 +35,7 @@ const ProjectMyWob = () => {
               style={{ width: "70%", margin: "13%" }}
             />
             <div className="clickbtn">
-              <a href="" target="_blank">
-                <button>대한항공사이트(도메인주소)</button>
-              </a>
-              <a href="">
+              <a href="https://drive.google.com/file/d/1_h1U9KVQngqTMH4eUhj3FgUFYAA2crSL/view?usp=drive_link ">
                 <button>PDF 보기</button>
               </a>
             </div>

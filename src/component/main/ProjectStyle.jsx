@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 4000px;
+  height: 700px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
@@ -60,8 +60,8 @@ const ProjectComp = styled.section`
         justify-content: space-between;
       }
       .texts {
-        .texts::-webkit-scrollbar {
-        }
+        max-height: 200px;
+        overflow-y: auto;
         .text {
           border: 1px solid var(--DARKGREY);
           border-radius: 10px;

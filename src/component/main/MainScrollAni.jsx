@@ -58,7 +58,9 @@ const MainScrollAni = () => {
           <span>⇣</span>
         </div>
         <div className="button">
-          <button>이력서 보기</button>
+          <a href="" target="_blank">
+            <button>이력서 보기</button>
+          </a>
         </div>
       </div>
     </MainPageComp>

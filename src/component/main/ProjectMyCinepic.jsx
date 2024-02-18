@@ -38,7 +38,7 @@ const ProjectMyCinepic = () => {
               <a href="" target="_blank">
                 <button>내가 맡은 씨네픽사이트(도메인주소)</button>
               </a>
-              <a href="">
+              <a href="https://drive.google.com/file/d/1UuOGYBaCo2HDdI8j8QcCm6ebbRFMnOoc/view?usp=drive_link ">
                 <button>PDF 보기</button>
               </a>
             </div>

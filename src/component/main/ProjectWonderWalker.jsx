@@ -46,19 +46,10 @@ const ProjectWonderWalker = () => {
             </h3>
             <div className={`text ${reasonOpen ? "open" : "closed"}`}>
               <p>
-                활용해 볼 수 있는 기술들이 많아보여 대한항공페이지를
-                클론해보기로 주제 선정 했음
+                혼자 여행을 즐기는 사람들을 위해 유용한 정보를 공유하기 위해
+                만든 커뮤니티 사이트
               </p>
-              <p>
-                시맨틱태그와 플렉스 박스 or그리드 레이아웃을 이용해 클론 페이지
-                만들기
-              </p>
-              <p>웹과 모바일 모두 대응 되도록 반응형 웹으로 구성</p>
-              <p>
-                추가 기능 구현 건 (로그인 페이지 추가 후 버튼 클릭 시 작성된
-                메인 화면이 뜨도록 구성)
-              </p>
-              <p>HTML, CSS을 이용한 기술 익히기(가급적 자바스크립트는 배제)</p>
+              <p>React, java, DataBase 사용</p>
             </div>
             <h3 onClick={toggleImplementationAccordion}>
               전체 구현 내용
@@ -70,19 +61,39 @@ const ProjectWonderWalker = () => {
               <div className="text">
                 <p>로그인 화면</p>
                 <span>회원 로그인</span>
+                <span>회원가입</span>
               </div>
               <div className="text">
                 <p>메인화면</p>
-                <span>메인 </span>
-                <span>이벤트 페이지</span>
-                <span>공지사항 페이지</span>
+                <span>메인 화면</span>
+                <span>여행 커뮤니티 후기 글</span>
                 <span>여행에 관련된 상품</span>
-                <span>header,footer</span>
               </div>
               <div className="text">
-                <p>반응형</p>
-                <span>로그인 화면</span>
-                <span>메인화면</span>
+                <p>1인 전용 상품 판매</p>
+                <span>1인 전용 상품보기</span>
+                <span>상품 주문/취소</span>
+                <span>상품 결제</span>
+                <span>장바구니</span>
+              </div>
+              <div className="text">
+                <p>커뮤니티 사이트</p>
+                <span>커뮤니티 목록</span>
+                <span>커뮤니티 등록/수정/삭제</span>
+              </div>
+              <div className="text">
+                <p>DIY 여행일지 글쓰기 등록/목록</p>
+                <span>메인 슬라이드 구현</span>
+                <span>캘린더 구현</span>
+                <span>여행 후기글 작성</span>
+                <span>후기글 목록</span>
+                <span>여행 후기 상세정보</span>
+              </div>
+              <div className="text">
+                <p>국내/해외 추천 코스</p>
+                <span>국내/해외</span>
+                <span>추천코스 목록</span>
+                <span>추천코스 상세페이지</span>
               </div>
             </div>
             <h3 onClick={toggleTechnologyAccordion}>
@@ -92,8 +103,8 @@ const ProjectWonderWalker = () => {
               />
             </h3>
             <div className={`text ${technologyOpen ? "open" : "closed"}`}>
-              <p>사용 언어 : Front(HTML,CSS)</p>
-              <p>Tool : Visual Studio Code</p>
+              <p>사용 언어 : Front(React), Back(java),DB(oracle)</p>
+              <p>Tool : Visual Studio Code,intelliJ,oracle</p>
               <p>Collaboration : github</p>
             </div>
           </div>

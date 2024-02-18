@@ -38,7 +38,7 @@ const ProjectClone = () => {
               <a href="https://www.koreanair.com/?hl=ko " target="_blank">
                 <button>대한항공사이트</button>
               </a>
-              <a href="">
+              <a href="https://drive.google.com/file/d/1zq3DRZ6ujNnHhtWn7VtL5CHL7v1vPKJz/view?usp=drive_link ">
                 <button>PDF 보기</button>
               </a>
             </div>

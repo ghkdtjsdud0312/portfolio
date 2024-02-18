@@ -38,7 +38,7 @@ const ProjectCinepic = () => {
               <a href="https://cinepic2024.site" target="_blank">
                 <button>사이트로 바로가기</button>
               </a>
-              <a href="">
+              <a href="https://drive.google.com/file/d/1J9DdKEUUjsJXUvm6u-VhXbOb3FTYmh5f/view?usp=drive_link">
                 <button>PDF 보기</button>
               </a>
             </div>
@@ -60,6 +60,7 @@ const ProjectCinepic = () => {
                 React와 SpringBoot, jwt, 웹소켓, Python을 이용한 여러 기술
                 익히기
               </p>
+              <p>wbs 및 단위테스트 진행</p>
             </div>
             <h3 onClick={toggleImplementationAccordion}>
               전체 구현 내용
