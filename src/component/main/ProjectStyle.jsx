@@ -59,19 +59,22 @@ const ProjectComp = styled.section`
         align-items: center;
         justify-content: space-between;
       }
-
-      .text {
-        border: 1px solid var(--DARKGREY);
-        border-radius: 10px;
-        padding: 10px;
-        margin-bottom: 5%;
-        p {
-          font-weight: 600;
-          line-height: 25px;
+      .texts {
+        .texts::-webkit-scrollbar {
         }
-        span {
-          display: flex;
-          line-height: 30px;
+        .text {
+          border: 1px solid var(--DARKGREY);
+          border-radius: 10px;
+          padding: 10px;
+          margin-bottom: 5%;
+          p {
+            font-weight: 600;
+            line-height: 25px;
+          }
+          span {
+            display: flex;
+            line-height: 30px;
+          }
         }
       }
       .open {
