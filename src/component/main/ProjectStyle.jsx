@@ -67,6 +67,7 @@ const ProjectComp = styled.section`
         margin-bottom: 5%;
         p {
           font-weight: 600;
+          line-height: 25px;
         }
         span {
           display: flex;

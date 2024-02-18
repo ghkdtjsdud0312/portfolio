@@ -42,6 +42,9 @@ const Project = ({ active }) => {
               <a href="https://workoutbuddys.store" target="_blank">
                 <button>사이트로 바로가기</button>
               </a>
+              <a href="">
+                <button>PDF 보기</button>
+              </a>
             </div>
           </div>
           <div className="textbox">
@@ -162,53 +165,6 @@ const Project = ({ active }) => {
               <p>Collaboration : github</p>
             </div>
           </div>
-          {/* <div className="box">
-            <h2>클론페이지</h2>
-            <h4>2023.10.09 ~ 2023.10.16</h4>
-            <div className="box2">
-              <div className="content1">
-                <p>대한항공 클론페이지</p>
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/logo--koreanair-pc.png?alt=media&token=ed162c1c-fcec-4688-a2a1-cdec902c5bd0"
-                  alt="대한항공 로고 사진"
-                />
-              </div>
-              <div className="content2">
-                <h3>주제 선정 이유</h3>
-                <h3>구현 내용</h3>
-                <h3>사용 기술</h3>
-              </div>
-            </div>
-            <div className="button">
-              <button onClick={() => {}}>More</button>
-            </div>
-          </div>
-
-          <div className="box">
-            <h2>씨네픽(CinePic)</h2>
-            <h4>2024.01.17 ~ 2024.02.21</h4>
-            <div className="box2">
-              <div className="content1">
-                <p>CinePic</p>
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/CinePicLogo.png?alt=media&token=5f8c28c4-af90-403f-a26c-935b5fc9bc57"
-                  alt="포폴사진"
-                />
-              </div>
-              <div className="content2">
-                <h3>주제 선정 이유</h3>
-                <p>
-                  사용자 맞춤 영화 추천 및 커뮤니티를 활용한 영화 플랫폼 사이트
-                </p>
-                <h3>프로젝트 설명</h3>
-                <h3>내가 맡은 부분</h3>
-                <h3>구현 기능 및 사용 기술</h3>
-              </div>
-            </div>
-            <div className="button">
-              <button onClick={() => {}}>More</button>
-            </div>
-         </div> */}
         </div>
       </ProjectComp>
     </>
