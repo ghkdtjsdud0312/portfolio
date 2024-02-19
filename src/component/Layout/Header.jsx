@@ -3,10 +3,13 @@ import styled from "styled-components";
 
 const HeaderComp = styled.header`
   position: fixed;
-  top: 25px;
-  left: -100px;
+  background-color: #fff;
+  height: 80px;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 999; /* 다른 컨텐츠 위에 위치하도록 함 */
+  padding-top: 1%;
   .container {
     .menu {
       display: flex;

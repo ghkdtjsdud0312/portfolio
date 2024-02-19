@@ -10,99 +10,59 @@ const ProjectComp = styled.section`
     font-weight: 600;
   }
   .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding-top: 5%;
     .titlebox {
       border-radius: 10px;
-      height: 400px;
       background-color: white;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-      margin-right: 10%;
-      text-align: center;
-      div {
-        font-size: 1.8em;
-        padding: 5%;
-        font-weight: 600;
-        line-height: 35px;
-      }
-      p {
-        font-size: 1.3em;
-      }
-      img {
-        width: 40%;
-      }
-      .clickbtn {
-        margin-top: 5%;
-        button {
-          width: 30%;
-          font-size: 0.6em;
-          border: none;
-          background: transparent;
-          cursor: pointer;
-          &:hover {
-            width: 40%;
-            font-size: 0.8em;
-            font-weight: 600;
-            transition: all 0.3s;
-          }
+      .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 7%;
+        }
+        div {
+          font-size: 1.8em;
+          padding: 2%;
+          font-weight: 600;
         }
       }
-    }
-    .textbox {
-      margin-top: 10%;
-      h3 {
-        font-weight: 600;
-        line-height: 50px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
-      .texts {
-        max-height: 200px;
-        overflow-y: auto;
+      .textbox {
+        font-size: 1em;
+        h3 {
+          text-align: center;
+        }
         .text {
-          border: 1px solid var(--DARKGREY);
-          border-radius: 10px;
-          padding: 10px 30px;
-          margin-bottom: 5%;
-          p {
+          line-height: 30px;
+          h3 {
+            font-size: 1.2em;
             font-weight: 600;
+            text-align: center;
           }
-          span {
-            display: flex;
-            margin-left: 7%;
-            line-height: 30px;
-            position: relative;
-            &::before {
-              content: "-";
-              position: absolute;
-              left: -1em;
+          p {
+            font-size: 1.1em;
+            text-align: center;
+          }
+        }
+        .clickbtn {
+          text-align: center;
+          padding: 10px 0;
+          button {
+            width: 20%;
+            font-size: 1em;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            &:hover {
+              font-size: 1.2em;
+              font-weight: 600;
+              transition: all 0.3s;
             }
           }
         }
       }
-      .open {
-        // open 클래스를 추가하여 확장된 섹션을 표시
-        display: block;
-      }
-      .closed {
-        // closed 클래스를 추가하여 닫힌 섹션을 숨김
-        display: none;
-      }
     }
-  }
-  .text p {
-    position: relative; /* 가상 요소의 위치를 상대적으로 설정 */
-    font-weight: 600;
-    margin: 5px 30px;
-    line-height: 1.5;
-  }
-  .text p::before {
-    content: "●";
-    position: absolute; /* 가상 요소를 절대 위치로 설정 */
-    left: -1.2em; /* 텍스트와의 간격 설정 */
   }
 `;
 

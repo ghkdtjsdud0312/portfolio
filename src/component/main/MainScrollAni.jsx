@@ -58,7 +58,9 @@ const MainScrollAni = () => {
           <span>⇣</span>
         </div>
         <div className="button">
-          <a href="" target="_blank">
+          <a
+            href="https://www.notion.so/4eaa43e629154e06b1bced59768bd9c0"
+            target="_blank">
             <button>이력서 보기</button>
           </a>
         </div>
