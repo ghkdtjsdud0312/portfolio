@@ -65,15 +65,21 @@ const ProjectComp = styled.section`
         .text {
           border: 1px solid var(--DARKGREY);
           border-radius: 10px;
-          padding: 10px;
+          padding: 10px 30px;
           margin-bottom: 5%;
           p {
             font-weight: 600;
-            line-height: 25px;
           }
           span {
             display: flex;
+            margin-left: 7%;
             line-height: 30px;
+            position: relative;
+            &::before {
+              content: "-";
+              position: absolute;
+              left: -1em;
+            }
           }
         }
       }
@@ -86,6 +92,17 @@ const ProjectComp = styled.section`
         display: none;
       }
     }
+  }
+  .text p {
+    position: relative; /* 가상 요소의 위치를 상대적으로 설정 */
+    font-weight: 600;
+    margin: 5px 30px;
+    line-height: 1.5;
+  }
+  .text p::before {
+    content: "●";
+    position: absolute; /* 가상 요소를 절대 위치로 설정 */
+    left: -1.2em; /* 텍스트와의 간격 설정 */
   }
 `;
 

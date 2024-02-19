@@ -30,14 +30,11 @@ const ProjectMyCinepic = () => {
             <div>씨네픽(Cinepic)</div>
             <p>상세구현내용(내가 맡은 부분)</p>
             <img
-              src=""
-              alt="내가 맡은 부분 사진(취향등록/수정,지도)"
-              style={{ width: "70%", margin: "13%" }}
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/CinePicLogo.png?alt=media&token=5f8c28c4-af90-403f-a26c-935b5fc9bc57"
+              alt="씨네픽사진"
+              style={{ width: "45%", margin: "13%" }}
             />
             <div className="clickbtn">
-              <a href="" target="_blank">
-                <button>내가 맡은 씨네픽사이트(도메인주소)</button>
-              </a>
               <a href="https://drive.google.com/file/d/1UuOGYBaCo2HDdI8j8QcCm6ebbRFMnOoc/view?usp=drive_link ">
                 <button>PDF 보기</button>
               </a>

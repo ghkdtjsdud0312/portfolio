@@ -30,9 +30,9 @@ const ProjectMyWob = () => {
             <div>WOB(WorkOut Buddy)</div>
             <p>상세구현내용(내가 맡은 부분)</p>
             <img
-              src=""
-              alt="내가 맡은 부분 사진(관리자,지도)"
-              style={{ width: "70%", margin: "13%" }}
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wob-logo.png?alt=media&token=53d56dac-cf54-4fdf-9842-a5d367a8e67d"
+              alt="wob 로고 사진"
+              style={{ paddingTop: "5%" }}
             />
             <div className="clickbtn">
               <a href="https://drive.google.com/file/d/1_h1U9KVQngqTMH4eUhj3FgUFYAA2crSL/view?usp=drive_link ">
