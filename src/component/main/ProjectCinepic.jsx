@@ -25,10 +25,10 @@ const ProjectCinepic = () => {
                 <h3>사용 기술</h3>
                 <p>
                   사용 언어 : Front(React), Back(springboot,python),Machine
-                  Learning, elasticsearch(kibana)
+                  Learning
                 </p>
                 <p>Framework : AWS</p>
-                <p>DB : MySQL, DBeaver</p>
+                <p>DB : MySQL, DBeaver,elasticsearch(kibana)</p>
                 <p>
                   Tool : Visual Studio Code, IntelliJ, Pycharm, postman, swagger
                   IU

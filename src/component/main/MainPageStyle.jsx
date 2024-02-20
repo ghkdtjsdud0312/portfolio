@@ -56,9 +56,10 @@ const MainPageComp = styled.section`
         border: none;
         background-color: #c4e0ef;
         border-radius: 20px;
-        padding: 10px;
-        font-size: 1em;
-        width: 13%;
+        padding: 20px;
+        font-weight: 600;
+        font-size: 1.5em;
+        width: 20%;
         cursor: pointer;
       }
     }

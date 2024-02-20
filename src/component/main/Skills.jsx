@@ -19,15 +19,12 @@ const SkillsComp = styled.section`
   }
   .container {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
     .box {
       padding: 20px;
       background-color: #fff;
       border-radius: 10px;
       text-align: center;
-      margin-top: 10%;
+      margin-top: 5%;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       h3 {
         font-size: 2em;
@@ -68,25 +65,21 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/image-removebg-preview.png?alt=media&token=c09b94c7-d660-4253-9bc1-9743377865f2"
                 alt="html,css,js_logo"
-                style={{ width: "50%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/react%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9-removebg-preview.png?alt=media&token=ca6043e4-79da-4cd2-8480-79b15a87af29"
                 alt="react_logo"
-                style={{ width: "50%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/react-native-768x890-removebg-preview.png?alt=media&token=3bbfe444-f8ce-42c3-9bb5-76c80af6b8b6"
                 alt="react-native_logo"
                 style={{
-                  width: "20%",
+                  width: "12%",
                   marginBottom: "20px",
                   paddingRight: "15px",
                 }}
               />
             </div>
-          </div>
-          <div className="box">
             <h3>BackEnd</h3>
             <div className="box2">
               <img
@@ -96,56 +89,50 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/java.png?alt=media&token=abc2ae69-1f2c-42dc-8c74-bc25fcbad799"
                 alt="java"
-                style={{ width: "20%", margin: "0 auto" }}
+                style={{ width: "13%", margin: "0 5%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/python-removebg-preview.png?alt=media&token=f712ed2a-33ac-4f1d-b040-adb75ef0ddbe"
                 alt="python"
-                style={{ width: "20%" }}
+                style={{ width: "13%", margin: "0 5%" }}
+              />
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC.png?alt=media&token=f04cd4b9-f3b5-4d18-acd8-13b143aaa02f"
+                alt="Machine Learning"
+                style={{ width: "15%" }}
               />
             </div>
-          </div>
-          <div className="box">
             <h3>Framework</h3>
             <div className="box2">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/aws2-removebg-preview.png?alt=media&token=c2fe2b0c-4506-4e80-92aa-3d17c143efd4"
                 alt="AWS"
-                style={{ width: "20%" }}
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5-removebg-preview.png?alt=media&token=1e3c76a7-e593-48a8-aee4-38a7debef208"
-                alt="Elasticsearch"
-                style={{ width: "45%", margin: "0 auto" }}
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A5%E1%84%89%E1%85%B5%E1%86%AB%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC.png?alt=media&token=f04cd4b9-f3b5-4d18-acd8-13b143aaa02f"
-                alt="Machine Learning"
-                style={{ width: "20%" }}
+                style={{ width: "10%" }}
               />
             </div>
-          </div>
-          <div className="box">
             <h3>DataBase</h3>
             <div className="box2">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/oracle-removebg-preview.png?alt=media&token=2fde7c80-4903-4f8b-8548-64df850c9341"
                 alt="Oracle"
+                style={{ width: "20%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/MysqlWorkBench-removebg-preview.png?alt=media&token=734f13ec-237d-431b-b551-b856df51ab08"
                 alt="MySQL"
-                style={{ margin: "0 auto" }}
+                style={{ width: "20%", margin: "0 4%" }}
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%83%E1%85%B5%E1%84%87%E1%85%B5%E1%84%87%E1%85%A5-removebg-preview.png?alt=media&token=e19012da-bc02-4c99-bac5-d067cdb5b580"
                 alt="DBeaver"
+                style={{ width: "20%", margin: "0 5%" }}
+              />
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A1%E1%84%89%E1%85%B3%E1%84%90%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5-removebg-preview.png?alt=media&token=1e3c76a7-e593-48a8-aee4-38a7debef208"
+                alt="Elasticsearch"
+                style={{ width: "25%" }}
               />
             </div>
-          </div>
-          <div
-            className="box"
-            style={{ gridColumn: "span 2", marginTop: "5%" }}>
             <h3>Tool</h3>
             <div
               className="box2"
@@ -196,10 +183,6 @@ const Skills = ({ active }) => {
                 style={{ width: "28%", margin: "0 auto" }}
               />
             </div>
-          </div>
-          <div
-            className="box"
-            style={{ gridColumn: "span 2", marginTop: "5%" }}>
             <h3>Collaboration</h3>
             <div className="box2">
               <img
