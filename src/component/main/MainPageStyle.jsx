@@ -4,7 +4,7 @@ import mainBg from "../../images/cloud.jpg";
 const MainPageComp = styled.section`
   position: relative;
   height: 1000px;
-  padding-top: 10%;
+  padding-top: 7%;
   overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
   &::before {
     content: "";
@@ -24,7 +24,6 @@ const MainPageComp = styled.section`
     background-color: rgba(212, 228, 237, 0.5);
     border-radius: 10px;
     padding: 120px 0;
-    margin-left: 30%;
     .text {
       text-align: center;
       line-height: 80px;
@@ -44,14 +43,17 @@ const MainPageComp = styled.section`
         animation-duration: 0.3s;
         animation-iteration-count: infinite;
         animation-name: cursor;
+        line-height: 60px;
       }
       span {
-        font-size: 2em;
-        color: white;
+        font-size: 1.7em;
+        color: #707070;
+        line-height: 60px;
       }
     }
     .button {
       text-align: center;
+      padding-top: 5%;
       button {
         border: none;
         background-color: #c4e0ef;
@@ -59,7 +61,7 @@ const MainPageComp = styled.section`
         padding: 20px;
         font-weight: 600;
         font-size: 1.5em;
-        width: 20%;
+        width: 35%;
         cursor: pointer;
       }
     }

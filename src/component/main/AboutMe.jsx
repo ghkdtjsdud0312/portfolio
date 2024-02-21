@@ -2,35 +2,36 @@ import styled from "styled-components";
 
 const AboutMeComp = styled.section`
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
-    padding: 70px;
+    padding: 50px;
     font-weight: 600;
   }
-  .container {
+  .aboutme {
     .introduce {
-      font-size: 5em;
+      font-size: 4em;
       font-weight: 600;
       text-align: center;
-      margin-top: 40px;
+      margin-top: 6%;
     }
     .title {
       display: flex;
       align-items: center;
+      margin-top: 40px;
       img {
-        width: 25%;
-        margin: 6%;
+        width: 20%;
+        margin-left: 10%;
       }
       .content {
         border: 3px solid #fff;
         border-radius: 10px;
-        padding: 15px;
+        padding: 50px;
+        margin: 0 auto;
         .text {
           display: flex;
-          justify-content: center;
-          line-height: 50px;
+          line-height: 55px;
           p {
             font-weight: 600;
             font-size: 1.7em;
@@ -54,7 +55,7 @@ const AboutMe = ({ active }) => {
     <>
       <AboutMeComp id="about" active={active}>
         <h2>About Me</h2>
-        <div className="container">
+        <div className="aboutme">
           <p className="introduce">저를 소개합니다!</p>
           <div className="title">
             <img

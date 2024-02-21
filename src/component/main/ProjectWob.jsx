@@ -5,7 +5,7 @@ const Project = () => {
     <>
       <ProjectComp>
         <h2>Project - WOB</h2>
-        <div className="container">
+        <div className="project">
           <div className="titlebox">
             <div className="title">
               <img

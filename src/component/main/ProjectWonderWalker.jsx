@@ -5,7 +5,7 @@ const ProjectWonderWalker = () => {
     <>
       <ProjectComp>
         <h2>Project - 원더워커</h2>
-        <div className="container">
+        <div className="project">
           <div className="titlebox">
             <div className="title">
               <img

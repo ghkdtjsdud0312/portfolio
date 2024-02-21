@@ -8,11 +8,13 @@ const SkillsComp = styled.section`
   h2 {
     background-color: #fff;
     font-weight: 600;
+    padding: 50px;
   }
-  .container {
+  .box {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 6%;
   }
 `;
 
@@ -115,13 +117,13 @@ const Skills = ({ active }) => {
     <>
       <SkillsComp id="skills" active={active}>
         <h2>skills</h2>
-        <div className="container">
+        <div className="box">
           <Card title="FrontEnd" images={frontendImages} />
           <Card title="BackEnd" images={backendImages} />
           <Card title="DataBase" images={databaseImages} />
           <Card title="Framework" images={frameworkImages} />
           <Card title="IDE" images={ideImages} />
-          <Card title="Collabration" images={collaborationImages} />
+          <Card title="Collabortion" images={collaborationImages} />
         </div>
       </SkillsComp>
     </>

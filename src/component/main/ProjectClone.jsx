@@ -5,7 +5,7 @@ const ProjectClone = () => {
     <>
       <ProjectComp>
         <h2>Project - 대한항공 클론페이지</h2>
-        <div className="container">
+        <div className="project">
           <div className="titlebox">
             <div className="title">
               <img

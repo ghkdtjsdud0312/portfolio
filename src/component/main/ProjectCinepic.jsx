@@ -5,7 +5,7 @@ const ProjectCinepic = ({ active }) => {
     <>
       <ProjectComp id="project" active={active}>
         <h2>Project - cinepic</h2>
-        <div className="container">
+        <div className="project">
           <div className="titlebox">
             <div className="title">
               <img

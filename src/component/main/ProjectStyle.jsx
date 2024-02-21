@@ -6,10 +6,10 @@ const ProjectComp = styled.section`
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
-    padding: 70px;
+    padding: 50px;
     font-weight: 600;
   }
-  .container {
+  .project {
     padding-top: 5%;
     .titlebox {
       border-radius: 10px;

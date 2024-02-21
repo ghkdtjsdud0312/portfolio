@@ -55,13 +55,13 @@ const MainScrollAni = () => {
             상상을 현실로 잇는 <br />
             프론트엔드 개발자 포트폴리오에 오신걸 환영합니다 :)
           </h3>
-          <span>⇣</span>
+          <span>→ 옆으로 슬라이드 하세요.</span>
         </div>
         <div className="button">
           <a
             href="https://www.notion.so/4eaa43e629154e06b1bced59768bd9c0"
             target="_blank">
-            <button>이력서 보기</button>
+            <button>이력서 바로보기(Click!)</button>
           </a>
         </div>
       </div>
