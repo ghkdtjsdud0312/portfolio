@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 700px;
+  height: 3000px;
   background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
   h2 {
     background-color: #fff;
@@ -40,22 +40,21 @@ const ProjectComp = styled.section`
             font-weight: 600;
             text-align: center;
           }
-          p {
-            font-size: 1.1em;
-            text-align: center;
+          img {
+            width: 25%;
           }
         }
         .clickbtn {
           text-align: center;
-          padding: 10px 0;
+          padding: 30px;
           button {
             width: 20%;
-            font-size: 1em;
+            font-size: 1.6em;
             border: none;
             background: transparent;
             cursor: pointer;
             &:hover {
-              font-size: 1.2em;
+              font-size: 2em;
               font-weight: 600;
               transition: all 0.3s;
             }

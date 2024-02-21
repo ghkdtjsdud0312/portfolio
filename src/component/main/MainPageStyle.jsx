@@ -3,7 +3,7 @@ import mainBg from "../../images/cloud.jpg";
 
 const MainPageComp = styled.section`
   position: relative;
-  height: 900px;
+  height: 800px;
   padding-top: 10%;
   overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
   &::before {

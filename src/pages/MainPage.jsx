@@ -5,6 +5,7 @@ import Skills from "../component/main/Skills";
 import ProjectWob from "../component/main/ProjectWob";
 import ProjectCinepic from "../component/main/ProjectCinepic";
 import ProjectClone from "../component/main/ProjectClone";
+import ProjectWonderWalker from "../component/main/ProjectWonderWalker";
 
 const MainPage = ({ activeSection }) => {
   return (
@@ -13,8 +14,9 @@ const MainPage = ({ activeSection }) => {
       {/* 각 섹션들 */}
       <AboutMe active={activeSection === "about"} />
       <Skills active={activeSection === "skills"} />
-      <ProjectWob active={activeSection === "project"} />
-      <ProjectCinepic />
+      <ProjectCinepic active={activeSection === "project"} />
+      <ProjectWob />
+      <ProjectWonderWalker />
       <ProjectClone />
     </>
   );
