@@ -18,7 +18,8 @@ const ProjectCinepic = ({ active }) => {
               <h3>2024.01.17 ~ 2024.02.21</h3>
               <div className="text">
                 <h3>원래 웹들과 차별점 및 웹페이지 목적성</h3>
-                <p></p>
+                <p>차별점 : 운동 앱에서 </p>
+                <p>목적성 : </p>
               </div>
               <div className="text">
                 <h3>사용 기술</h3>
@@ -62,6 +63,7 @@ const ProjectCinepic = ({ active }) => {
                 />
               </div>
               <div className="clickbtn">
+                <p>사이트로 바로가기(Click!)</p>
                 <a href="https://cinepic2024.site" target="_blank">
                   <button>cinepic 사이트</button>
                 </a>
