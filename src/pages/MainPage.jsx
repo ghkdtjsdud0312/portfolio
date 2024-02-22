@@ -46,6 +46,9 @@ const MainPage = ({ activeSection }) => {
         <SwiperSlide>
           <ProjectClone />
         </SwiperSlide>
+        <SwiperSlide>
+          <ProjectWonderWalker />
+        </SwiperSlide>
       </Swiper>
     </>
   );
