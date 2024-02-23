@@ -1,52 +1,73 @@
 import ProjectComp from "./ProjectStyle";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const ProjectClone = () => {
+  SwiperCore.use([Navigation, Pagination]);
   return (
     <>
       <ProjectComp>
-        <h2>
+        <h3>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/logo--koreanair-pc.png?alt=media&token=ed162c1c-fcec-4688-a2a1-cdec902c5bd0"
             alt="대한항공 로고 사진"
           />
-          대한항공 클론페이지
-        </h2>
+          대한항공 클론페이지 - 대한항공 페이지 클론해보기
+        </h3>
         <div className="project">
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            style={{ width: "40%" }}
+            navigation
+            pagination={{ clickable: true }}>
+            <SwiperSlide>
+              <div className="slide">가로 슬라이드 1</div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide">가로 슬라이드 2</div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="slide">가로 슬라이드 3</div>
+            </SwiperSlide>
+          </Swiper>
           <div className="titlebox">
             <div className="title">
-              <div>프로젝트 소개 및 차별점, 목적성</div>
-              <p>소개 : </p>
-              <p>● 차별성 및 목적성 : </p>
-            </div>
-            <div className="title">
-              <div>프로젝트 기간/인원</div>
-              <p>● 기간 :2023.10.09 ~ 2023.10.16</p>
+              <div>주제</div>
               <p>
-                <p>개인 프로젝트</p>
+                v 대한항공 클론페이지를 똑같이 만들어봄으로써 HTML,CSS 구조
+                익혀보기
               </p>
             </div>
             <div className="title">
+              <div>프로젝트 기간/인원</div>
+              <p>v 기간 :2023.10.09 ~ 2023.10.16 / 개인</p>
+            </div>
+            <div className="title">
               <div>개발 목표</div>
+              <p>전반적인 HTML과 CSS 익히기</p>
+              <p>화면 똑같이 구현해보기</p>
             </div>
             <div className="title">
               <div>개인 역할(front)</div>
+              <div className="role">
+                <p>HTML과 CSS 사용으로 대한항공 페이지 똑같이 구현해보기</p>
+              </div>
             </div>
 
             <div className="title">
               <h3>사용 기술</h3>
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/image-removebg-preview.png?alt=media&token=c09b94c7-d660-4253-9bc1-9743377865f2"
-                alt="html,css,js_logo"
-                style={{ width: "20%" }}
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%B5%E1%86%BA%E1%84%92%E1%85%A5%E1%86%B8.webp?alt=media&token=fd5c4053-a890-408b-bc03-438fa2634d29"
-                alt="github"
-                style={{ width: "13%" }}
-              />
+              <div className="skills">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>github</p>
+              </div>
             </div>
             <div className="title">
-              <p>사이트로 바로가기(Click!)</p>
+              <div>Url 연결</div>
               <a href="https://www.koreanair.com/?hl=ko " target="_blank">
                 <button>대한항공사이트</button>
               </a>

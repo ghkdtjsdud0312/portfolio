@@ -57,9 +57,9 @@ const ProjectCinepic = ({ active }) => {
                 v React와 SpringBoot, jwt, 웹소켓, Python을 이용한 여러 기술
                 익히기
               </p>
-              <p>v wbs 및 단위테스트 진행</p>
               <p>v 머신러닝을 활용한 맞춤 영화 추천</p>
               <p>v Elasticsearch를 활용한 영화 검색</p>
+              <p>v wbs 및 단위테스트 진행</p>
             </div>
             <div className="title">
               <div>개인 역할(front,back,DB)</div>
