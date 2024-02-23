@@ -10,7 +10,7 @@ const HeaderComp = styled.header`
   width: 100%;
   z-index: 999; /* 다른 컨텐츠 위에 위치하도록 함 */
   padding-top: 1%;
-  .container {
+  .header {
     .menu {
       display: flex;
       align-items: center;
@@ -60,7 +60,7 @@ const Header = () => {
 
   return (
     <HeaderComp>
-      <div className="container">
+      <div className="header">
         <ul className="menu">
           <li>
             <h2>SeonYoung's Portfolio</h2>

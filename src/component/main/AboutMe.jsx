@@ -1,21 +1,32 @@
 import styled from "styled-components";
+import mainBg from "../../images/laptop.jpg";
 
 const AboutMeComp = styled.section`
   width: 100%;
   height: 1000px;
-  background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
+  position: relative;
+  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(${mainBg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(5px);
+    z-index: -1; /* 텍스트보다 뒤에 배치 */
+  }
   h2 {
     background-color: #fff;
     padding: 50px;
     font-weight: 600;
   }
   .aboutme {
-    .introduce {
-      font-size: 4em;
-      font-weight: 600;
-      text-align: center;
-      margin-top: 6%;
-    }
+    padding-top: 5%;
     .title {
       display: flex;
       align-items: center;
@@ -23,9 +34,11 @@ const AboutMeComp = styled.section`
       img {
         width: 20%;
         margin-left: 10%;
+        border-radius: 100%;
       }
       .content {
-        border: 3px solid #fff;
+        background-color: #fff;
+        box-shadow: 3px 3px 3px grey;
         border-radius: 10px;
         padding: 50px;
         margin: 0 auto;
@@ -37,6 +50,7 @@ const AboutMeComp = styled.section`
             font-size: 1.7em;
             width: 25%;
             white-space: nowrap;
+            color: #303030;
           }
           p:nth-child(2) {
             margin: 0 35px;
@@ -54,12 +68,11 @@ const AboutMe = ({ active }) => {
   return (
     <>
       <AboutMeComp id="about" active={active}>
-        <h2>About Me</h2>
+        <h2>About Me - 저를 소개합니다!</h2>
         <div className="aboutme">
-          <p className="introduce">저를 소개합니다!</p>
           <div className="title">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.jpeg?alt=media&token=73757bfe-eaaf-475a-8967-401349e31732"
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%89%E1%85%A5%E1%84%89%E1%85%A1%E1%84%8C%E1%85%B5%E1%86%AB.png?alt=media&token=54fb36fd-961e-4b37-b31c-a2eaba9a9b1b"
               alt="이력서 사진"
             />
             <div className="content">

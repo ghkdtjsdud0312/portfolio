@@ -6,6 +6,7 @@ import ProjectWob from "../component/main/ProjectWob";
 import ProjectCinepic from "../component/main/ProjectCinepic";
 import ProjectClone from "../component/main/ProjectClone";
 import ProjectWonderWalker from "../component/main/ProjectWonderWalker";
+import EndPage from "../component/main/EndPage";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -47,7 +48,7 @@ const MainPage = ({ activeSection }) => {
           <ProjectClone />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectWonderWalker />
+          <EndPage />
         </SwiperSlide>
       </Swiper>
     </>

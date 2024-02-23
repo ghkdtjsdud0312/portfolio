@@ -1,10 +1,26 @@
 import styled from "styled-components";
 import Card from "./Card";
+import mainBg from "../../images/laptop.jpg";
 
 const SkillsComp = styled.section`
   width: 100%;
   height: 1000px;
-  background-color: ${(props) => (props.active ? "transparent" : "#D4E4ED")};
+  position: relative;
+  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(${mainBg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(5px);
+    z-index: -1; /* 텍스트보다 뒤에 배치 */
+  }
   h2 {
     background-color: #fff;
     font-weight: 600;
