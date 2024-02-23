@@ -8,10 +8,10 @@ const ProjectComp = styled.section`
     display: flex;
     align-items: center;
     background-color: #fff;
-    padding: 40px;
+    padding: 30px;
     font-weight: 600;
     img {
-      width: 8%;
+      width: 5%;
       margin-right: 2%;
     }
   }
@@ -27,22 +27,23 @@ const ProjectComp = styled.section`
       font-size: 1.5em;
     }
     .titlebox {
-      margin-left: auto;
       border-radius: 10px;
       background-color: white;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
-      width: 50%;
-      height: 750px;
+      width: 55%;
+      height: 800px;
+      padding: 2%;
       .title {
-        padding-top: 5%;
-        text-align: center;
         div {
           font-size: 1.3em;
           font-weight: 600;
+          line-height: 50px;
+          text-align: left;
         }
         p {
           line-height: 28px;
           font-size: 1em;
+          text-align: left;
         }
         button {
           width: 25%;
@@ -55,9 +56,30 @@ const ProjectComp = styled.section`
           cursor: pointer;
           border-radius: 10px;
           &:hover {
-            background-color: #84acc4;
+            color: #1b608b;
             font-weight: 600;
             transition: all 0.3s;
+          }
+        }
+        .role {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          white-space: nowrap;
+          font-size: 1em;
+          p {
+            font-weight: 400;
+          }
+        }
+        .skills {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          white-space: nowrap;
+          p {
+            font-weight: 300;
+            font-size: 0.8em;
+            outline: 1px solid #505050;
+            text-align: center;
+            border-radius: 10px;
           }
         }
       }
