@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import mainBg from "../../images/laptop.jpg";
+import mainBg from "../../images/wave6.jpg";
 
 const ProjectComp = styled.section`
   width: 100%;

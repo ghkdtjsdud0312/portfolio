@@ -1,5 +1,5 @@
 import React from "react";
-import mainBg from "../../images/laptop.jpg";
+import mainBg from "../../images/wave6.jpg";
 import styled from "styled-components";
 
 const EndPageComp = styled.section`

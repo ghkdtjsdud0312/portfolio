@@ -47,6 +47,35 @@ const HeaderComp = styled.header`
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .header .menu h2 {
+      font-size: 1.2em;
+      margin-left: 5%;
+    }
+    .header .menu li {
+      margin-right: 2.5%;
+    }
+    .header .menu li button {
+      font-size: 1em;
+    }
+    .header .menu2 li {
+      width: 35%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header .menu h2 {
+      font-size: 0.7em;
+    }
+    .header .menu li {
+      margin-right: 0.7%;
+    }
+    .header .menu li button {
+      font-size: 0.7em;
+    }
+    .header .menu2 li {
+      width: 15%;
+    }
+  }
 `;
 
 const Header = () => {

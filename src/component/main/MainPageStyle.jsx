@@ -23,6 +23,12 @@ const MainPageComp = styled.section`
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     padding: 120px 0;
+    @media screen and (max-width: 768px) {
+      margin-top: 14%;
+    }
+    @media screen and (max-width: 480px) {
+      margin-top: 20%;
+    }
     .text {
       text-align: center;
       line-height: 80px;

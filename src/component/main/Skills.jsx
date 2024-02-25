@@ -13,7 +13,7 @@ const SkillsComp = styled.section`
     left: 0;
     width: 100%;
     height: 100%;
-    /* background-image: url(${mainBg}); */
+    background-image: url(${mainBg});
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -36,6 +36,7 @@ const SkillsComp = styled.section`
     padding: 2%;
     width: 96%;
     margin-left: 2%;
+    margin-top: 2%;
     img {
       width: 13%;
       margin-right: 3%;
