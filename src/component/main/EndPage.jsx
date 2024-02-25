@@ -18,11 +18,10 @@ const EndPageComp = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: blur(8px); /* 배경을 5px만큼 흐리게 */
     z-index: -1; /* 텍스트보다 뒤에 배치 */
   }
   .container {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     width: 70%;
     height: 700px;
@@ -30,6 +29,7 @@ const EndPageComp = styled.section`
     justify-content: center;
     align-items: center;
     font-size: 4em;
+    color: #fff;
   }
 `;
 

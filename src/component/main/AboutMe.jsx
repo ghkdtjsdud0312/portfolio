@@ -48,23 +48,35 @@ const AboutMeComp = styled.section`
         background-color: #fff;
         box-shadow: 3px 3px 3px grey;
         border-radius: 10px;
-        padding: 50px;
+        width: 50%;
+        height: 630px;
+        padding: 80px;
         margin: 0 auto;
+
         .text {
           display: flex;
-          line-height: 55px;
+          line-height: 60px;
           p {
             font-weight: 600;
             font-size: 1.7em;
             width: 25%;
             white-space: nowrap;
             color: #303030;
+            margin-right: 10%;
           }
-          p:nth-child(2) {
-            margin: 0 35px;
-            font-size: 1.6em;
-            font-weight: 400;
-            width: 80%;
+          span {
+            width: 60%;
+            font-size: 1.7em;
+            white-space: nowrap;
+          }
+          .expression {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            span {
+              width: 60%;
+              font-size: 1.7em;
+              white-space: nowrap;
+            }
           }
         }
       }
@@ -86,54 +98,68 @@ const AboutMe = ({ active }) => {
             <div className="content">
               <div className="text">
                 <p>
-                  <FontAwesomeIcon icon={faUser} />
+                  <FontAwesomeIcon
+                    icon={faUser}
+                    style={{ marginRight: "5%" }}
+                  />
                   Name
                 </p>
-                <p>황선영</p>
+                <span>황선영</span>
               </div>
               <div className="text">
                 <p>
-                  <FontAwesomeIcon icon={faCalendar} />
+                  <FontAwesomeIcon
+                    icon={faCalendar}
+                    style={{ marginRight: "5%" }}
+                  />
                   Birth
                 </p>
-                <p>1996.03.12</p>
+                <span>1996.03.12</span>
               </div>
               <div className="text">
                 <p>
-                  <FontAwesomeIcon icon={faMobileScreen} />
+                  <FontAwesomeIcon
+                    icon={faMobileScreen}
+                    style={{ marginRight: "5%" }}
+                  />
                   Tel
                 </p>
-                <p>010-4922-2180</p>
+                <span>010-4922-2180</span>
               </div>
               <div className="text">
                 <p>
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    style={{ marginRight: "5%" }}
+                  />
                   E-mail
                 </p>
-                <p>ghkdtjsdud0312@gmail.com</p>
+                <span>ghkdtjsdud0312@gmail.com</span>
               </div>
               <div className="text">
                 <p>
-                  <FontAwesomeIcon icon={faFaceSmile} />
-                  expression
-                </p>
-                <p>
-                  # 끈기와 노력 # 지속적인 성장 # 꼼꼼함 # 계획적 # 새로운
-                  도전에 적극적 # 협동적
-                </p>
-              </div>
-              <div className="text">
-                <p>
-                  <FontAwesomeIcon icon={faPen} />
+                  <FontAwesomeIcon icon={faPen} style={{ marginRight: "5%" }} />
                   Course history
                 </p>
+                <span>KH 정보교육원 (23.08.14 ~ 24.02.21)</span>
+              </div>
+              <div className="text">
                 <p>
-                  KH 정보교육원
-                  <br />- Python 활용 빅테이터 기반 금융 솔루션 UI 개발자
-                  양성과정
-                  <br />
-                  (23.08.14 ~ 24.02.21)
+                  <FontAwesomeIcon
+                    icon={faFaceSmile}
+                    style={{ marginRight: "5%" }}
+                  />
+                  expression
                 </p>
+                <div className="expression">
+                  <span># 끈기</span>
+                  <span># 노력</span>
+                  <span># 지속적 성장</span>
+                  <span># 꼼꼼함</span>
+                  <span># 계획적 </span>
+                  <span># 적극적</span>
+                  <span># 협동적</span>
+                </div>
               </div>
             </div>
           </div>

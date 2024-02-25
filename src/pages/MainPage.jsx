@@ -39,13 +39,13 @@ const MainPage = ({ activeSection }) => {
           <ProjectCinepic active={activeSection === "project"} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectWob />
+          <ProjectWob active={activeSection === "project2"} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectWonderWalker />
+          <ProjectWonderWalker active={activeSection === "project3"} />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectClone />
+          <ProjectClone active={activeSection === "project4"} />
         </SwiperSlide>
         <SwiperSlide>
           <EndPage />

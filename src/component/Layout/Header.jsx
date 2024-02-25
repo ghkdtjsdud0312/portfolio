@@ -16,16 +16,19 @@ const HeaderComp = styled.header`
       align-items: center;
       h2 {
         font-weight: 600;
-        margin-right: auto;
+        margin-left: 10%;
+        white-space: nowrap;
+        cursor: pointer;
       }
       li {
-        margin: 0 auto;
+        margin-right: 5%;
         button {
           border: none;
           border-bottom: 1px solid var(--GREY);
           font-weight: 600;
           font-size: 1.5em;
           cursor: pointer;
+          white-space: nowrap;
           background: transparent; /* 배경색 투명하게 설정 */
           &:hover {
             color: var(--DARKGREY);
@@ -63,7 +66,9 @@ const Header = () => {
       <div className="header">
         <ul className="menu">
           <li>
-            <h2>SeonYoung's Portfolio</h2>
+            <h2 onClick={() => scrollToSection("main")}>
+              SeonYoung's Portfolio
+            </h2>
           </li>
           <li>
             <button onClick={() => scrollToSection("about")}>About Me</button>
@@ -73,6 +78,21 @@ const Header = () => {
           </li>
           <li>
             <button onClick={() => scrollToSection("project")}>Project</button>
+          </li>
+          <li>
+            <button onClick={() => scrollToSection("project2")}>
+              Project2
+            </button>
+          </li>
+          <li>
+            <button onClick={() => scrollToSection("project3")}>
+              Project3
+            </button>
+          </li>
+          <li>
+            <button onClick={() => scrollToSection("project4")}>
+              Project4
+            </button>
           </li>
           <ul className="menu2">
             <li>
@@ -94,7 +114,7 @@ const Header = () => {
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%20(1).png?alt=media&token=e022f188-4b00-4751-8c6e-59bda0797ffc"
                   alt="깃헙"
-                  style={{ width: "50px" }}
+                  style={{ width: "45px" }}
                 />
               </a>
             </li>

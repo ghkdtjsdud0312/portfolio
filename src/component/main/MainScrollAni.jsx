@@ -1,7 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import MainPageComp from "./MainPageStyle";
 
-const MainScrollAni = () => {
+const MainScrollAni = ({ active }) => {
   // 반짝이는 효과
   const observer = useRef(
     new IntersectionObserver((entries) => {
@@ -45,7 +45,7 @@ const MainScrollAni = () => {
   useEffect(() => {}, []);
 
   return (
-    <MainPageComp>
+    <MainPageComp id="main" active={active}>
       <div className="container">
         <div className="text">
           <h2>{Text}</h2>

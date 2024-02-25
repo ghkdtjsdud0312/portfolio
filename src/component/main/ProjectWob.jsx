@@ -5,12 +5,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const Project = () => {
+const Project = ({ active }) => {
   SwiperCore.use([Navigation, Pagination]);
 
   return (
     <>
-      <ProjectComp>
+      <ProjectComp id="project2" active={active}>
         <h3>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wob-logo.png?alt=media&token=53d56dac-cf54-4fdf-9842-a5d367a8e67d"

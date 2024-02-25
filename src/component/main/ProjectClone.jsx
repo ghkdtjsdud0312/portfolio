@@ -5,11 +5,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const ProjectClone = () => {
+const ProjectClone = ({ active }) => {
   SwiperCore.use([Navigation, Pagination]);
   return (
     <>
-      <ProjectComp>
+      <ProjectComp id="project3" active={active}>
         <h3>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/logo--koreanair-pc.png?alt=media&token=ed162c1c-fcec-4688-a2a1-cdec902c5bd0"

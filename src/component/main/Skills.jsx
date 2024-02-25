@@ -27,7 +27,15 @@ const SkillsComp = styled.section`
   .box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2%;
+    gap: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ece1e1;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 10px;
+    padding: 2%;
+    width: 96%;
+    margin-left: 2%;
     img {
       width: 13%;
       margin-right: 3%;
@@ -42,16 +50,22 @@ const SkillsComp = styled.section`
     }
   }
   .box2 {
+    text-align: center;
     h3 {
-      margin: 2%;
-      font-size: 2em;
+      margin: 1% 0;
+      font-size: 2.3em;
       font-weight: 600;
     }
     .tool2 {
       margin: 2%;
+      background-color: #fff;
+      border: 1px solid #ece1e1;
+      box-shadow: 3px 3px 3px grey;
+      border-radius: 10px;
+      padding: 1%;
       img {
         width: 4%;
-        margin-right: 2%;
+        margin-right: 5%;
       }
     }
   }
@@ -61,7 +75,7 @@ const Skills = ({ active }) => {
   return (
     <>
       <SkillsComp id="skills" active={active}>
-        <h2>skills - 배운 기술</h2>
+        <h2>skills - 배운 기술들</h2>
         <div className="box">
           <div className="tool">
             <p>FrontEnd</p>
