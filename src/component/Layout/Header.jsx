@@ -17,16 +17,6 @@ const HeaderComp = styled.header`
       h2 {
         font-weight: 600;
         margin-right: auto;
-        button {
-          border: none;
-          font-weight: 600;
-          font-size: 1em;
-          cursor: pointer;
-          background: transparent; /* 배경색 투명하게 설정 */
-          &:hover {
-            color: var(--DARKGREY);
-          }
-        }
       }
       li {
         margin: 0 auto;
@@ -73,9 +63,7 @@ const Header = () => {
       <div className="header">
         <ul className="menu">
           <li>
-            <h2>
-              <button>SeonYoung's Portfolio</button>
-            </h2>
+            <h2>SeonYoung's Portfolio</h2>
           </li>
           <li>
             <button onClick={() => scrollToSection("about")}>About Me</button>
@@ -104,9 +92,9 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%B5%E1%86%BA%E1%84%92%E1%85%A5%E1%86%B8.webp?alt=media&token=fd5c4053-a890-408b-bc03-438fa2634d29"
-                  alt="github"
-                  style={{ width: "40%" }}
+                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%20(1).png?alt=media&token=e022f188-4b00-4751-8c6e-59bda0797ffc"
+                  alt="깃헙"
+                  style={{ width: "50px" }}
                 />
               </a>
             </li>

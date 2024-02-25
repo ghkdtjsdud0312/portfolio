@@ -27,13 +27,34 @@ const ProjectCinepic = ({ active }) => {
             navigation
             pagination={{ clickable: true }}>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 1</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%A5%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%20%E1%84%92%E1%85%AE%20%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%E1%84%87%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC.png?alt=media&token=94e48946-d663-49e5-9525-32ca9b69b0ce"
+                alt="지도"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 2</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%87%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A7%E1%86%BC%20%E1%84%8C%E1%85%B5%E1%84%83%E1%85%A9%20768px.png?alt=media&token=c56e4bb2-096b-41ec-9e65-2c66efde6a16"
+                alt="반응형"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 3</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8E%E1%85%B1%E1%84%92%E1%85%A3%E1%86%BC%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.png?alt=media&token=0a0b599f-c65a-4079-8ddb-e2fed2a553c4"
+                alt="취향등록"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8E%E1%85%B1%E1%84%92%E1%85%A3%E1%86%BC%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png?alt=media&token=a037fa90-5139-48f6-8f45-f73eb7cf187e"
+                alt="취향 수정"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%87%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%B3%E1%86%BC%E1%84%92%E1%85%A7%E1%86%BC%20768px.png?alt=media&token=e1809b09-025e-4bbb-af03-be0e9256d714"
+                alt="반응형"
+              />
             </SwiperSlide>
           </Swiper>
           <div className="titlebox">

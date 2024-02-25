@@ -25,13 +25,28 @@ const ProjectClone = () => {
             navigation
             pagination={{ clickable: true }}>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 1</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20(1).png?alt=media&token=34abe38f-9e97-49cf-8a01-a4a52cc69f6f"
+                alt="로그인"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 2</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20(1).png?alt=media&token=c1f9e101-7d49-4020-af4b-9eb9d8651d24"
+                alt="로그인 앱"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 3</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%B0%E1%86%B8%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20(1).png?alt=media&token=a6a3c87d-6040-4e26-8a54-77dce65d5e23"
+                alt="메인"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20(1).png?alt=media&token=0622035b-4ef5-4ebf-a4ab-ad71d2ec2c17"
+                alt="메인 앱"
+              />
             </SwiperSlide>
           </Swiper>
           <div className="titlebox">

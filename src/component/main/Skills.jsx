@@ -22,12 +22,12 @@ const SkillsComp = styled.section`
   h2 {
     background-color: #fff;
     font-weight: 600;
-    padding: 50px;
+    padding: 45px;
   }
   .box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 2%;
+    margin: 2%;
     img {
       width: 13%;
       margin-right: 3%;
@@ -48,6 +48,7 @@ const SkillsComp = styled.section`
       font-weight: 600;
     }
     .tool2 {
+      margin: 2%;
       img {
         width: 4%;
         margin-right: 2%;

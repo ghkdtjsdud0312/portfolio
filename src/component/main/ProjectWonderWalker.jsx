@@ -26,13 +26,34 @@ const ProjectWonderWalker = () => {
             navigation
             pagination={{ clickable: true }}>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 1</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5.png?alt=media&token=210dccb4-2bcf-47b1-a081-a8e1cc7e53db"
+                alt="메인페이지"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 2</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%92%E1%85%AE%E1%84%80%E1%85%B5%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A81.jpg?alt=media&token=f4041fa5-8f9c-4447-91ae-c6936c06ac33"
+                alt="후기목록"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 3</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%92%E1%85%AE%E1%84%80%E1%85%B5%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A81.jpg?alt=media&token=4ce69ac7-cace-4a28-9c07-1c2a328ef103"
+                alt="후기등록"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%E1%84%92%E1%85%AE%E1%84%80%E1%85%B5%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8(%E1%84%87%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB).png?alt=media&token=3fa15726-ec6b-472a-adfb-ec3214105d7c"
+                alt="후기등록1"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8B%E1%85%A7%E1%84%92%E1%85%A2%E1%86%BC%E1%84%92%E1%85%AE%E1%84%80%E1%85%B5%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A82(%E1%84%87%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB).png?alt=media&token=d230879c-1741-4309-8b9e-2aac8fad3e49"
+                alt="후기 등록2"
+              />
             </SwiperSlide>
           </Swiper>
           <div className="titlebox">

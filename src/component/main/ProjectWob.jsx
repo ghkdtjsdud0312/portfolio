@@ -26,13 +26,58 @@ const Project = () => {
             navigation
             pagination={{ clickable: true }}>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 1</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%82%E1%85%A2%E1%84%8B%E1%85%B1%E1%84%8E%E1%85%B5.png?alt=media&token=11d07d02-8529-475d-a7cc-402843c98604"
+                alt="지도1"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 2</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/768px.png?alt=media&token=de1cae90-90ad-4f79-82d5-90997897d783"
+                alt="지도2"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <div className="slide">가로 슬라이드 3</div>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6%E1%84%82%E1%85%A2%E1%84%8B%E1%85%AD%E1%86%BC%202.png?alt=media&token=f0271184-ef65-4520-8c9c-b359a3442d9e"
+                alt="지도 반응형"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5.png?alt=media&token=c5561c61-4c90-4b83-bb9d-6ebcda618c43"
+                alt="관리자 메인"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/screencapture-workoutbuddys-store-AdminMain-2024-02-08-23_29_15.png?alt=media&token=1ee37cbe-7271-41b7-9849-c0b060ba6a17"
+                alt="관리자 메인 반응형1"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/screencapture-workoutbuddys-store-AdminMain-2024-02-08-23_29_03.png?alt=media&token=3200e6b3-21fa-461a-b64f-d4d5d3af9cb3"
+                alt="관리자 메인 반응형2"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A9%E1%86%BC%E1%84%86%E1%85%A9%E1%86%A8%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.png?alt=media&token=265d5be2-dbfd-41e9-a93a-589039917a4a"
+                alt="종목 등록"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/screencapture-workoutbuddys-store-AdminBoardRegistration-2024-02-08-23_27_58.png?alt=media&token=99da89cd-6d7b-4e92-b977-d05811d7ee0c"
+                alt="종목 등록 반응형"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/screencapture-workoutbuddys-store-AllBoardContent-2024-02-08-23_27_44.png?alt=media&token=222dcab4-8275-474b-a299-2755b9ece41c"
+                alt="종목 목록"
+              />
             </SwiperSlide>
           </Swiper>
           <div className="titlebox">

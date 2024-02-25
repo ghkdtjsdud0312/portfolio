@@ -34,14 +34,18 @@ const ProjectComp = styled.section`
   .project {
     padding: 3%;
     display: flex;
+    .swiper-container {
+      width: 100%;
+    }
     .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
+      height: 80vh;
     }
-    .slide {
-      font-size: 1.5em;
-      color: #303030;
+    img {
+      max-width: 100%;
+      max-height: 100%;
     }
     .titlebox {
       border-radius: 10px;
