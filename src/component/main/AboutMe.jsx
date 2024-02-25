@@ -1,5 +1,14 @@
 import styled from "styled-components";
 import mainBg from "../../images/wave6.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMobileScreen,
+  faEnvelope,
+  faPen,
+  faUser,
+  faCalendar,
+  faFaceSmile,
+} from "@fortawesome/free-solid-svg-icons";
 
 const AboutMeComp = styled.section`
   width: 100%;
@@ -76,23 +85,48 @@ const AboutMe = ({ active }) => {
             />
             <div className="content">
               <div className="text">
-                <p>Name</p>
+                <p>
+                  <FontAwesomeIcon icon={faUser} />
+                  Name
+                </p>
                 <p>황선영</p>
               </div>
               <div className="text">
-                <p>Birth</p>
+                <p>
+                  <FontAwesomeIcon icon={faCalendar} />
+                  Birth
+                </p>
                 <p>1996.03.12</p>
               </div>
               <div className="text">
-                <p>Tel</p>
+                <p>
+                  <FontAwesomeIcon icon={faMobileScreen} />
+                  Tel
+                </p>
                 <p>010-4922-2180</p>
               </div>
               <div className="text">
-                <p>E-mail</p>
+                <p>
+                  <FontAwesomeIcon icon={faEnvelope} />
+                  E-mail
+                </p>
                 <p>ghkdtjsdud0312@gmail.com</p>
               </div>
               <div className="text">
-                <p>Course history</p>
+                <p>
+                  <FontAwesomeIcon icon={faFaceSmile} />
+                  expression
+                </p>
+                <p>
+                  # 끈기와 노력 # 지속적인 성장 # 꼼꼼함 # 계획적 # 새로운
+                  도전에 적극적 # 협동적
+                </p>
+              </div>
+              <div className="text">
+                <p>
+                  <FontAwesomeIcon icon={faPen} />
+                  Course history
+                </p>
                 <p>
                   KH 정보교육원
                   <br />- Python 활용 빅테이터 기반 금융 솔루션 UI 개발자

@@ -26,18 +26,31 @@ const SkillsComp = styled.section`
   }
   .box {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2%;
     img {
-      width: 10%;
+      width: 13%;
       margin-right: 3%;
     }
     .tool {
-      margin: 4%;
+      margin: 2%;
       p {
         font-size: 2em;
         font-weight: 600;
         padding-bottom: 3%;
+      }
+    }
+  }
+  .box2 {
+    h3 {
+      margin: 2%;
+      font-size: 2em;
+      font-weight: 600;
+    }
+    .tool2 {
+      img {
+        width: 4%;
+        margin-right: 2%;
       }
     }
   }
@@ -149,6 +162,66 @@ const Skills = ({ active }) => {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%20(1).png?alt=media&token=e022f188-4b00-4751-8c6e-59bda0797ffc"
               alt="깃헙"
+            />
+          </div>
+        </div>
+        <div className="box2">
+          <h3>활용가능한 기술</h3>
+          <div className="tool2">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/1.png?alt=media&token=ae52b3a5-07cd-43ca-bd53-6607e6bc9318"
+              alt="HTML"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/2.png?alt=media&token=77182675-3300-4470-9aed-fe5e2e200fc8"
+              alt="CSS"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/4.png?alt=media&token=3fac5403-89a4-44a4-a920-499f6152ee80"
+              alt="리액트"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/6.png?alt=media&token=ef0e8bcd-080c-49d1-9cdc-c2a5f1d7d765"
+              alt="오라클"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/7.png?alt=media&token=afb21dd4-d4a5-426f-9c20-8628147c30ea"
+              alt="디비버"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/14.png?alt=media&token=e6225944-bf01-40f1-926e-f59b487c2594"
+              alt="mysql"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/15.png?alt=media&token=1f85df13-9c3e-4e4e-b1d5-be603240a933"
+              alt="자바"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/18.png?alt=media&token=0c06ad69-9595-4f7d-974d-5205ec8fa02d"
+              alt="스트링부트"
+            />
+          </div>
+          <h3>어느정도 가능한 기술</h3>
+          <div className="tool2">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/3.png?alt=media&token=92ee5883-f206-48af-bae1-9566dc6e7c80"
+              alt="js"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/5.png?alt=media&token=73db3a1c-8ad1-4c7b-8ba6-9c666576c7d3"
+              alt="react-native"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/8.png?alt=media&token=7c8b05b7-64cc-4d0c-9a77-c0dfb21fb429"
+              alt="엘라스틱서치"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/10.png?alt=media&token=ff39a9fa-27dc-4a99-acf9-b1fabb7c1a7d"
+              alt="파이썬"
+            />
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/17.png?alt=media&token=fcf56744-8ae3-41e3-804d-f7cd9b796b9a"
+              alt="머신러닝"
             />
           </div>
         </div>
