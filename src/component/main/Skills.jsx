@@ -69,6 +69,44 @@ const SkillsComp = styled.section`
       }
     }
   }
+  @media screen and (width: 768px) {
+    .box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 500px;
+    }
+    .box img {
+      width: 13%;
+    }
+    .box2 h3 {
+      margin-top: 3%;
+    }
+    .box2 .tool2 {
+      padding: 3%;
+    }
+    .box2 .tool2 img {
+      width: 7%;
+    }
+  }
+  @media screen and (width: 480px) {
+    .box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 450px;
+    }
+    .box img {
+      width: 20%;
+    }
+    .box2 h3 {
+      margin-top: 7%;
+    }
+    .box2 .tool2 {
+      padding: 3%;
+    }
+    .box2 .tool2 img {
+      width: 12%;
+    }
+  }
 `;
 
 const Skills = ({ active }) => {

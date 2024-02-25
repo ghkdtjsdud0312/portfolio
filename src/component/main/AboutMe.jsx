@@ -82,6 +82,31 @@ const AboutMeComp = styled.section`
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .aboutme .title {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 5px; /* 이미지와 내용 사이의 여백 조절 */
+    }
+
+    .aboutme .title img {
+      width: 25%;
+      border-radius: 50%;
+      margin: 2% auto;
+    }
+
+    .aboutme .title .content {
+      width: 90%;
+      height: 520px;
+      padding: 5%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .aboutme .title .content {
+      font-size: 0.8em;
+      padding-right: 1%;
+    }
+  }
 `;
 
 const AboutMe = ({ active }) => {

@@ -63,6 +63,11 @@ const MainPageComp = styled.section`
         width: 35%;
         cursor: pointer;
       }
+      @media screen and (max-width: 768px) {
+        button {
+          width: 50%;
+        }
+      }
     }
   }
 `;

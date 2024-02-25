@@ -69,7 +69,7 @@ const ProjectWonderWalker = ({ active }) => {
               <div>프로젝트 기간/인원</div>
               <p>v 기간 : 2023.11.01 ~ 2023.11.15 / 4명</p>
             </div>
-            <div className="text">
+            <div className="title">
               <div>개발목표</div>
               <p>v 화면 구성부터 백엔드까지 전반적인 구현 경험</p>
               <p>v React와 java,oracle을 이용해 기술 익히기</p>

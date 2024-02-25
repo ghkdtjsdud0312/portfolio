@@ -31,6 +31,18 @@ const EndPageComp = styled.section`
     font-size: 4em;
     color: #fff;
   }
+  @media screen and (max-width: 768px) {
+    .container {
+      margin-top: 15%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .container {
+      margin-top: 25%;
+      font-size: 3em;
+      text-align: center;
+    }
+  }
 `;
 
 const EndPage = () => {
