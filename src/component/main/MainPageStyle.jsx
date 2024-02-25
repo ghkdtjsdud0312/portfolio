@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import mainBg from "../../images/laptop.jpg";
+import mainBg from "../../images/wave6.jpg";
 
 const MainPageComp = styled.section`
   position: relative;
@@ -17,12 +17,10 @@ const MainPageComp = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: blur(8px); /* 배경을 5px만큼 흐리게 */
     z-index: -1; /* 텍스트보다 뒤에 배치 */
   }
   .container {
-    background-color: rgba(225, 234, 239, 0.3);
-    /* box-shadow: 5px 5px 5px #fff; */
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     padding: 120px 0;
     .text {
@@ -30,7 +28,7 @@ const MainPageComp = styled.section`
       line-height: 80px;
       h2 {
         font-size: 5em;
-        color: #303030;
+        color: #fff;
       }
     }
     .text2 {
@@ -44,11 +42,11 @@ const MainPageComp = styled.section`
         animation-iteration-count: infinite;
         animation-name: cursor;
         line-height: 60px;
-        color: #303030;
+        color: #fff;
       }
       span {
         font-size: 1.7em;
-        color: #707070;
+        color: #fff;
         line-height: 60px;
       }
     }

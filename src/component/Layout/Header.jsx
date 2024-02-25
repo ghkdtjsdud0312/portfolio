@@ -17,6 +17,16 @@ const HeaderComp = styled.header`
       h2 {
         font-weight: 600;
         margin-right: auto;
+        button {
+          border: none;
+          font-weight: 600;
+          font-size: 1em;
+          cursor: pointer;
+          background: transparent; /* 배경색 투명하게 설정 */
+          &:hover {
+            color: var(--DARKGREY);
+          }
+        }
       }
       li {
         margin: 0 auto;
@@ -63,7 +73,9 @@ const Header = () => {
       <div className="header">
         <ul className="menu">
           <li>
-            <h2>SeonYoung's Portfolio</h2>
+            <h2>
+              <button>SeonYoung's Portfolio</button>
+            </h2>
           </li>
           <li>
             <button onClick={() => scrollToSection("about")}>About Me</button>

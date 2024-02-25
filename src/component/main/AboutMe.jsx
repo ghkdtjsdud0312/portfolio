@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import mainBg from "../../images/laptop.jpg";
+import mainBg from "../../images/wave6.jpg";
 
 const AboutMeComp = styled.section`
   width: 100%;
@@ -17,7 +17,6 @@ const AboutMeComp = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    filter: blur(5px);
     z-index: -1; /* 텍스트보다 뒤에 배치 */
   }
   h2 {

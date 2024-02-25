@@ -68,8 +68,10 @@ const ProjectClone = () => {
             </div>
             <div className="title">
               <div>Url 연결</div>
-              <a href="https://www.koreanair.com/?hl=ko " target="_blank">
-                <button>대한항공사이트</button>
+              <a
+                href="https://boom-quit-f07.notion.site/6e9ef9b4ce6945e3a762a8cddacfa233"
+                target="_blank">
+                <button>노션사이트</button>
               </a>
               <a
                 href="https://ghkdtjsdud0312.github.io/Myprj-ClonePage-/"

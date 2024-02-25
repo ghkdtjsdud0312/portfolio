@@ -90,9 +90,9 @@ const ProjectCinepic = ({ active }) => {
                 <button>씨네픽 사이트</button>
               </a>
               <a
-                href="https://www.notion.so/793844f3d814450396e7ce8079d0c4d3"
+                href="https://boom-quit-f07.notion.site/cinepic-da06b8c802584538a6d9d91894e0dfb0"
                 target="_blank">
-                <button>구현 내용 보기</button>
+                <button>노션 보기</button>
               </a>
               <a href="https://drive.google.com/file/d/1J9DdKEUUjsJXUvm6u-VhXbOb3FTYmh5f/view?usp=drive_link">
                 <button>PDF 보기</button>

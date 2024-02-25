@@ -89,9 +89,9 @@ const Project = () => {
                 <button>WOB사이트</button>
               </a>
               <a
-                href="https://www.notion.so/WOB-38403a42d5ba44bca4a24000b4942d9d"
+                href="https://boom-quit-f07.notion.site/WOB-WorkOut-Buddy-9293ded1d23f4528b01df10358bee2d5"
                 target="_blank">
-                <button>구현 내용 보기</button>
+                <button>노션 보기</button>
               </a>
               <a href="https://drive.google.com/file/d/1xJv11Da7n1iR2-9UDmLS7VHvsQODikne/view?usp=drive_link">
                 <button>PDF 보기</button>
