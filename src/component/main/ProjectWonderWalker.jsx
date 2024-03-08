@@ -97,7 +97,7 @@ const ProjectWonderWalker = ({ active }) => {
               <a href="https://boom-quit-f07.notion.site/WonderWalker-61839ed56a06422c95a44156d09b59be">
                 <button>노션 보기</button>
               </a>
-              <a href="()=> false">
+              <a href="{()=> false}">
                 <button>PDF 보기</button>
               </a>
             </div>
