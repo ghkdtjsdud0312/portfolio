@@ -1,7 +1,7 @@
 {
+  "homepage": "https://ghkdtjsdud0312.github.io/portfolio/",
   "name": "netlify",
   "version": "0.1.0",
-  "homepage": "https://ghkdtjsdud0312.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
