@@ -12,17 +12,15 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <GlobalStyle />
-        <Router>
-          <Routes>
-            <Route element={<Layout />}>
-              <Route path="/" element={<MainPage />} />
-            </Route>
-            <Route path="/search" element={<search />} />
-          </Routes>
-        </Router>
-      </BrowserRouter>
+      <GlobalStyle />
+      <Router basename={process.env.PUBLIC_URL}>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<MainPage />} />
+          </Route>
+          <Route path="/search" element={<search />} />
+        </Routes>
+      </Router>
     </>
   );
 }
