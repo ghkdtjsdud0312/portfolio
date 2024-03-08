@@ -94,12 +94,10 @@ const ProjectWonderWalker = ({ active }) => {
             </div>
             <div className="title">
               <div>Url 연결</div>
-              <a
-                href="https://boom-quit-f07.notion.site/WonderWalker-61839ed56a06422c95a44156d09b59be"
-                rel="noreferrer noopener">
+              <a href="https://boom-quit-f07.notion.site/WonderWalker-61839ed56a06422c95a44156d09b59be">
                 <button>노션 보기</button>
               </a>
-              <a href="" rel="noreferrer noopener">
+              <a href="()=> false">
                 <button>PDF 보기</button>
               </a>
             </div>

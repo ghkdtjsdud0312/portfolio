@@ -17,11 +17,12 @@ const MainScrollAni = ({ active }) => {
   );
 
   useEffect(() => {
+    const observerRef = observer.current;
     const divs = document.querySelectorAll(".container > div");
-    divs.forEach((div) => observer.current.observe(div));
+    divs.forEach((div) => observerRef.observe(div));
 
     return () => {
-      divs.forEach((div) => observer.current.unobserve(div));
+      divs.forEach((div) => observerRef.unobserve(div));
     };
   }, []);
 
