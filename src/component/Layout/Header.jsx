@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 
 const HeaderComp = styled.header`
@@ -79,11 +78,8 @@ const HeaderComp = styled.header`
 `;
 
 const Header = () => {
-  const [activeSection, setActiveSection] = useState(""); // 현재 활성화된 섹션
-
   // scroll section마다 움직이게 함
-  const scrollToSection = (sectionId) => {
-    setActiveSection(sectionId);
+  const scrollToRef = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -95,33 +91,25 @@ const Header = () => {
       <div className="header">
         <ul className="menu">
           <li>
-            <h2 onClick={() => scrollToSection("main")}>
-              SeonYoung's Portfolio
-            </h2>
+            <h2 onClick={() => scrollToRef("main")}>SeonYoung's Portfolio</h2>
           </li>
           <li>
-            <button onClick={() => scrollToSection("about")}>About Me</button>
+            <button onClick={() => scrollToRef("about")}>About Me</button>
           </li>
           <li>
-            <button onClick={() => scrollToSection("skills")}>Skills</button>
+            <button onClick={() => scrollToRef("skills")}>Skills</button>
           </li>
           <li>
-            <button onClick={() => scrollToSection("project")}>Project</button>
+            <button onClick={() => scrollToRef("project")}>Project</button>
           </li>
           <li>
-            <button onClick={() => scrollToSection("project2")}>
-              Project2
-            </button>
+            <button onClick={() => scrollToRef("project2")}>Project2</button>
           </li>
           <li>
-            <button onClick={() => scrollToSection("project3")}>
-              Project3
-            </button>
+            <button onClick={() => scrollToRef("project3")}>Project3</button>
           </li>
           <li>
-            <button onClick={() => scrollToSection("project4")}>
-              Project4
-            </button>
+            <button onClick={() => scrollToRef("project4")}>Project4</button>
           </li>
           <ul className="menu2">
             <li>

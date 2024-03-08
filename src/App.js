@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  BrowserRouter,
-} from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import GlobalStyle from "./utils/GlobalStyle";
 import MainPage from "./pages/MainPage";
 import Layout from "./pages/Layout";
