@@ -85,15 +85,19 @@ const ProjectClone = ({ active }) => {
               <div>Url 연결</div>
               <a
                 href="https://boom-quit-f07.notion.site/6e9ef9b4ce6945e3a762a8cddacfa233"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>노션사이트</button>
               </a>
               <a
                 href="https://ghkdtjsdud0312.github.io/Myprj-ClonePage-/"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>클론사이트</button>
               </a>
-              <a href="https://drive.google.com/file/d/1zq3DRZ6ujNnHhtWn7VtL5CHL7v1vPKJz/view?usp=drive_link ">
+              <a
+                href="https://drive.google.com/file/d/1zq3DRZ6ujNnHhtWn7VtL5CHL7v1vPKJz/view?usp=drive_link"
+                rel="noreferrer noopener">
                 <button>PDF 보기</button>
               </a>
             </div>

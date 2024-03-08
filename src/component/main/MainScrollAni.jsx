@@ -60,7 +60,8 @@ const MainScrollAni = ({ active }) => {
         <div className="button">
           <a
             href="https://www.notion.so/0a0a0b1ff67c4b33b18cc2777059b1b9"
-            target="_blank">
+            target="_blank"
+            rel="noreferrer noopener">
             <button>이력서 바로보기(Click!)</button>
           </a>
         </div>

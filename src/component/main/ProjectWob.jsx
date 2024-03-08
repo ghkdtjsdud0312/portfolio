@@ -130,15 +130,21 @@ const Project = ({ active }) => {
             </div>
             <div className="title">
               <div>Url 연결</div>
-              <a href="https://workoutbuddys.store" target="_blank">
+              <a
+                href="https://workoutbuddys.store"
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>WOB사이트</button>
               </a>
               <a
                 href="https://boom-quit-f07.notion.site/WOB-WorkOut-Buddy-9293ded1d23f4528b01df10358bee2d5"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>노션 보기</button>
               </a>
-              <a href="https://drive.google.com/file/d/1xJv11Da7n1iR2-9UDmLS7VHvsQODikne/view?usp=drive_link">
+              <a
+                href="https://drive.google.com/file/d/1xJv11Da7n1iR2-9UDmLS7VHvsQODikne/view?usp=drive_link"
+                rel="noreferrer noopener">
                 <button>PDF 보기</button>
               </a>
             </div>

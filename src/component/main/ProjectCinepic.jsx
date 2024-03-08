@@ -107,15 +107,21 @@ const ProjectCinepic = ({ active }) => {
             </div>
             <div className="title">
               <div>Url 연결</div>
-              <a href="https://cinepic2024.site" target="_blank">
+              <a
+                href="https://cinepic2024.site"
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>씨네픽 사이트</button>
               </a>
               <a
                 href="https://boom-quit-f07.notion.site/cinepic-da06b8c802584538a6d9d91894e0dfb0"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer noopener">
                 <button>노션 보기</button>
               </a>
-              <a href="https://drive.google.com/file/d/1J9DdKEUUjsJXUvm6u-VhXbOb3FTYmh5f/view?usp=drive_link">
+              <a
+                href="https://drive.google.com/file/d/1J9DdKEUUjsJXUvm6u-VhXbOb3FTYmh5f/view?usp=drive_link"
+                rel="noreferrer noopener">
                 <button>PDF 보기</button>
               </a>
             </div>
