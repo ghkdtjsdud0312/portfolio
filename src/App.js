@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import GlobalStyle from "./utils/GlobalStyle";
 import MainPage from "./pages/MainPage";
 import Layout from "./pages/Layout";
@@ -8,13 +8,11 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<MainPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<MainPage />} />
+        </Route>
+      </Routes>
     </>
   );
 }
