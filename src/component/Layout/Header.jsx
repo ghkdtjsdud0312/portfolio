@@ -78,14 +78,13 @@ const HeaderComp = styled.header`
 `;
 
 const Header = () => {
-  // scroll section마다 움직이게 함
+  // 각 섹션으로 스크롤 함수
   const scrollToRef = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
   return (
     <HeaderComp>
       <div className="header">

@@ -182,7 +182,6 @@ const AboutMe = ({ active }) => {
                   <span># 지속적 성장</span>
                   <span># 꼼꼼함</span>
                   <span># 계획적 </span>
-                  <span># 적극적</span>
                   <span># 협동적</span>
                 </div>
               </div>
