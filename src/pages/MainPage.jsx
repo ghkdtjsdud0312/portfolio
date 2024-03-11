@@ -20,7 +20,7 @@ const MainPage = ({ activeSection }) => {
       {/* 부모 요소에 클래스 추가 */}
       <Swiper
         className="banner"
-        style={{ height: "1000px" }} // 높이 조절
+        // style={{ height: "2000px" }} // 높이 조절
         spaceBetween={50}
         slidesPerView={1}
         navigation

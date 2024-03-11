@@ -12,50 +12,33 @@ import {
 
 const AboutMeComp = styled.section`
   width: 100%;
-  height: 1000px;
-  position: relative;
-  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(${mainBg});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: -1; /* 텍스트보다 뒤에 배치 */
-  }
+  background-image: url(${mainBg});
+  background-size: cover;
+  padding: 100px 0;
   h2 {
-    background-color: #fff;
-    padding: 50px;
+    text-align: center;
+    padding-bottom: 100px;
     font-weight: 600;
   }
   .aboutme {
-    padding-top: 5%;
     .title {
       display: flex;
       align-items: center;
-      margin-top: 40px;
       img {
         width: 20%;
-        margin-left: 10%;
-        border-radius: 100%;
+        margin-left: 7%;
       }
       .content {
         background-color: #fff;
         box-shadow: 3px 3px 3px grey;
         border-radius: 10px;
-        width: 50%;
-        height: 630px;
+        width: 60%;
         padding: 80px;
         margin: 0 auto;
 
         .text {
           display: flex;
-          line-height: 60px;
+          line-height: 80px;
           p {
             font-weight: 600;
             font-size: 1.7em;
@@ -70,10 +53,8 @@ const AboutMeComp = styled.section`
             white-space: nowrap;
           }
           .expression {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
             span {
-              width: 60%;
+              padding-right: 6px;
               font-size: 1.7em;
               white-space: nowrap;
             }
@@ -82,7 +63,7 @@ const AboutMeComp = styled.section`
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1360px) {
     .aboutme .title {
       flex-direction: column;
       align-items: center;
@@ -91,19 +72,27 @@ const AboutMeComp = styled.section`
 
     .aboutme .title img {
       width: 25%;
-      border-radius: 50%;
       margin: 2% auto;
     }
-
     .aboutme .title .content {
       width: 90%;
       height: 520px;
       padding: 5%;
     }
   }
+  @media screen and (max-width: 820px) {
+    .aboutme .title .content .text .expression {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .aboutme .title .content .text .expression span {
+      width: 30%;
+    }
+  }
   @media screen and (max-width: 480px) {
     .aboutme .title .content {
       font-size: 0.8em;
+      font-weight: 600;
       padding-right: 1%;
     }
   }
@@ -179,7 +168,6 @@ const AboutMe = ({ active }) => {
                 <div className="expression">
                   <span># 끈기</span>
                   <span># 노력</span>
-                  <span># 지속적 성장</span>
                   <span># 꼼꼼함</span>
                   <span># 계획적 </span>
                   <span># 협동적</span>

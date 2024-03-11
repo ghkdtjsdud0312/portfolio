@@ -3,28 +3,14 @@ import mainBg from "../../images/wave6.jpg";
 
 const ProjectComp = styled.section`
   width: 100%;
-  height: 1000px;
-  position: relative;
-  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(${mainBg});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    filter: blur(5px);
-    z-index: -1; /* 텍스트보다 뒤에 배치 */
-  }
+  background-image: url(${mainBg});
+  background-size: cover;
+  padding: 100px 0;
   h3 {
     display: flex;
     align-items: center;
-    background-color: #fff;
-    padding: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
     font-weight: 600;
     img {
       width: 5%;

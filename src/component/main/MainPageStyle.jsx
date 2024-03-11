@@ -3,8 +3,8 @@ import mainBg from "../../images/wave6.jpg";
 
 const MainPageComp = styled.section`
   position: relative;
-  height: 1000px;
-  padding-top: 7%;
+  height: auto;
+  padding-top: 10%;
   overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
   &::before {
     content: "";
