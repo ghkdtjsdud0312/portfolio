@@ -22,6 +22,7 @@ const MainPage = ({ activeSection }) => {
         className="banner"
         spaceBetween={50}
         slidesPerView={1}
+        style={{ height: "1000px" }}
         navigation
         pagination={{ clickable: true }}>
         <SwiperSlide>

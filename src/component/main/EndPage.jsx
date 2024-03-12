@@ -1,12 +1,12 @@
 import React from "react";
-import mainBg from "../../images/wave6.jpg";
+import mainBg from "../../images/녹색배경.jpg";
 import styled from "styled-components";
 
 const EndPageComp = styled.section`
   position: relative;
   height: 1000px;
   padding-top: 7%;
-  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
+  overflow: hidden;
   &::before {
     content: "";
     position: absolute;
@@ -18,7 +18,7 @@ const EndPageComp = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: -1; /* 텍스트보다 뒤에 배치 */
+    z-index: -1;
   }
   .container {
     background-color: rgba(0, 0, 0, 0.3);
