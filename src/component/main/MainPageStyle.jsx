@@ -1,11 +1,9 @@
 import { styled } from "styled-components";
-import mainBg from "../../images/wave6.jpg";
+import mainBg from "../../images/녹색배경.jpg";
 
 const MainPageComp = styled.section`
   position: relative;
-  height: auto;
-  padding-top: 10%;
-  overflow: hidden; /* 자식 요소의 넘치는 부분을 숨김 */
+  padding: 14%;
   &::before {
     content: "";
     position: absolute;

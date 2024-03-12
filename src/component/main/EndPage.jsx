@@ -49,7 +49,7 @@ const EndPage = () => {
   return (
     <>
       <EndPageComp>
-        <div className="container">마지막까지 봐주셔서 감사합니다 :)</div>
+        <div className="container">감사합니다 :)</div>
       </EndPageComp>
     </>
   );

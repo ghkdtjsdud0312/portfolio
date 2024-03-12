@@ -1,10 +1,7 @@
 import { styled } from "styled-components";
-import mainBg from "../../images/wave6.jpg";
 
 const ProjectComp = styled.section`
   width: 100%;
-  background-image: url(${mainBg});
-  background-size: cover;
   padding: 100px 0;
   h3 {
     display: flex;

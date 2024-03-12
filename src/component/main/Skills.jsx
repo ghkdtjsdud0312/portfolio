@@ -1,10 +1,7 @@
 import styled from "styled-components";
-import mainBg from "../../images/wave6.jpg";
 
 const SkillsComp = styled.section`
   width: 100%;
-  background-image: url(${mainBg});
-  background-size: cover;
   padding: 60px 0;
   h2 {
     text-align: center;
