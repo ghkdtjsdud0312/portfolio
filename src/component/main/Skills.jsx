@@ -12,7 +12,7 @@ const SkillsComp = styled.section`
   .skillIcon {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
     h3 {
       text-align: left;
       padding: 30px;

@@ -19,7 +19,7 @@ const AboutMeComp = styled.section`
       font-weight: 600;
     }
     .wrapper {
-      box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.2);
+      box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       margin: 0 auto;
       width: 80%;
       display: flex;

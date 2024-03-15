@@ -3,17 +3,17 @@ import mainBg from "../../images/녹색배경.jpg";
 import styled from "styled-components";
 
 const EndPageComp = styled.section`
+  background-image: url(${mainBg});
+  background-size: cover;
   width: 100%;
+  height: 100vh;
   margin-left: 20%;
   .container {
-    border-radius: 20px;
-    height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 16%;
     font-size: 4em;
     color: #fff;
-    background-image: url(${mainBg});
+    height: 100%;
   }
   @media screen and (max-width: 768px) {
     .container {
