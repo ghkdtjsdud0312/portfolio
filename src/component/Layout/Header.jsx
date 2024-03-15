@@ -1,34 +1,32 @@
 import styled from "styled-components";
+import mainBg from "../../images/녹색배경.jpg";
 
 const HeaderComp = styled.header`
   position: fixed;
-  background-color: #fff;
-  height: 80px;
-  top: 0;
+  background-image: url(${mainBg});
   left: 0;
-  width: 100%;
-  z-index: 999; /* 다른 컨텐츠 위에 위치하도록 함 */
-  padding-top: 1%;
+  top: 0;
+  height: 740px;
   .header {
+    flex-grow: 1;
+    width: 240px;
+    text-align: center;
     .menu {
-      display: flex;
-      align-items: center;
       h2 {
+        font-size: 1.2em;
         font-weight: 600;
-        margin-left: 10%;
-        white-space: nowrap;
+        line-height: 100px;
         cursor: pointer;
       }
       li {
-        margin-right: 5%;
+        line-height: 60px;
         button {
           border: none;
           border-bottom: 1px solid var(--GREY);
-          font-weight: 600;
-          font-size: 1.5em;
+          font-weight: 400;
+          font-size: 1em;
           cursor: pointer;
-          white-space: nowrap;
-          background: transparent; /* 배경색 투명하게 설정 */
+          background: transparent;
           &:hover {
             color: var(--DARKGREY);
           }
@@ -43,6 +41,11 @@ const HeaderComp = styled.header`
         img {
           cursor: pointer;
         }
+      }
+    }
+    .footer {
+      p {
+        font-size: 0.6em;
       }
     }
   }
@@ -135,6 +138,9 @@ const Header = () => {
               </a>
             </li>
           </ul>
+          <div className="footer">
+            <p> CopyRight © 2024 Hwang SeonYoung All Rights Reserved.</p>
+          </div>
         </ul>
       </div>
     </HeaderComp>

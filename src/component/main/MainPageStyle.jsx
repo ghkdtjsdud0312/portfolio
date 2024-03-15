@@ -2,21 +2,9 @@ import { styled } from "styled-components";
 import mainBg from "../../images/녹색배경.jpg";
 
 const MainPageComp = styled.section`
-  position: relative;
-  padding: 14%;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(${mainBg});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: -1; /* 텍스트보다 뒤에 배치 */
-  }
+  background-image: url(${mainBg});
+  width: 100%;
+  margin-left: 20%;
   .container {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 30px;

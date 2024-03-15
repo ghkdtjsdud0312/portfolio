@@ -3,6 +3,7 @@ import styled from "styled-components";
 const SkillsComp = styled.section`
   width: 100%;
   padding: 60px 0;
+  margin-left: 20%;
   h2 {
     text-align: center;
     padding-bottom: 50px;
@@ -13,9 +14,6 @@ const SkillsComp = styled.section`
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     text-align: center;
-    background-color: #fff;
-    border: 1px solid #ece1e1;
-    box-shadow: 3px 3px 3px grey;
     border-radius: 10px;
     padding: 2%;
     width: 96%;
@@ -43,9 +41,6 @@ const SkillsComp = styled.section`
     }
     .tool2 {
       margin: 2%;
-      background-color: #fff;
-      border: 1px solid #ece1e1;
-      box-shadow: 3px 3px 3px grey;
       border-radius: 10px;
       padding: 1%;
       img {

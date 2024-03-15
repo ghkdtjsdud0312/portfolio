@@ -64,7 +64,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1.6em;
   }
   main {
-    padding-top: 80px;
     min-height: 60vh;
   }
   .container {
@@ -88,6 +87,5 @@ const GlobalStyle = createGlobalStyle`
       padding-top: 40px;
     }
   }
-
 `;
 export default GlobalStyle;
