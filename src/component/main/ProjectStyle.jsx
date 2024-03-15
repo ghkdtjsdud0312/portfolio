@@ -25,7 +25,7 @@ const ProjectComp = styled.section`
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 80vh;
+      height: 100vh;
     }
     img {
       max-width: 100%;
@@ -54,14 +54,12 @@ const ProjectComp = styled.section`
           width: 25%;
           font-size: 1em;
           border: none;
-          border-bottom: 1px solid #303030;
+          text-decoration: underline;
           background: transparent;
           margin-left: 5%;
-          padding-top: 4%;
           cursor: pointer;
-          border-radius: 10px;
           &:hover {
-            color: #1b608b;
+            color: #7d8c81;
             font-weight: 600;
             transition: all 0.3s;
           }
@@ -81,10 +79,10 @@ const ProjectComp = styled.section`
           white-space: nowrap;
           p {
             font-weight: 300;
-            font-size: 0.8em;
-            outline: 1px solid #505050;
+            font-size: 0.7em;
             text-align: center;
             border-radius: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
           }
         }
       }

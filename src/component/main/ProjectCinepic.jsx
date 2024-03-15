@@ -1,4 +1,6 @@
 import ProjectComp from "./ProjectStyle";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -59,7 +61,10 @@ const ProjectCinepic = ({ active }) => {
           </Swiper>
           <div className="titlebox">
             <div className="title">
-              <div>기존 사이트와의 차별점</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                기존 사이트와의 차별점
+              </div>
               <p>
                 v 씨네픽은 사이트를 이용하는 사람들이 직접 남긴 후기 및 비슷한
                 분야를 선호하는 사람들과의 소통과 모임을 통해 활동할 수 있는
@@ -67,11 +72,17 @@ const ProjectCinepic = ({ active }) => {
               </p>
             </div>
             <div className="title">
-              <div>프로젝트 기간 및 인원</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                프로젝트 기간 및 인원
+              </div>
               <p>v 2024.01.17 ~ 2024.02.21 / 6명</p>
             </div>
             <div className="title">
-              <div>개발 목표</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                개발 목표
+              </div>
               <p>v 화면 구성부터 백엔드까지 전반적인 구현 경험</p>
               <p>v CRUD 구현 및 다양한 API 활용</p>
               <p>
@@ -83,7 +94,10 @@ const ProjectCinepic = ({ active }) => {
               <p>v wbs 및 단위테스트 진행</p>
             </div>
             <div className="title">
-              <div>개인 역할(front,back,DB)</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                개인 역할(front,back,DB)
+              </div>
               <div className="role">
                 <p>v 지도 API(지역이나 구 검색,상세 정보)</p>
                 <p>v 취향 등록/수정(검색,선택(최대3개))</p>
@@ -93,7 +107,10 @@ const ProjectCinepic = ({ active }) => {
             </div>
 
             <div className="title">
-              <div>사용 기술</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                사용 기술
+              </div>
               <div className="skills">
                 <p>React</p>
                 <p>Spring boot</p>
@@ -106,7 +123,10 @@ const ProjectCinepic = ({ active }) => {
               </div>
             </div>
             <div className="title">
-              <div>Url 연결</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                Url 연결
+              </div>
               <a
                 href="https://cinepic2024.site"
                 target="_blank"
