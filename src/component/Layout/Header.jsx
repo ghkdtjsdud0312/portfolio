@@ -33,19 +33,21 @@ const HeaderComp = styled.header`
         }
       }
     }
-    .menu2 {
+    .icons {
       display: flex;
+      justify-content: center;
       align-items: center;
+      margin-top: 150px;
       li {
-        margin-left: 25%;
+        margin: 0 5px;
         img {
           cursor: pointer;
         }
       }
     }
-    .footer {
+    .copyRight {
       p {
-        font-size: 0.6em;
+        font-size: 0.4em;
       }
     }
   }
@@ -113,7 +115,7 @@ const Header = () => {
           <li>
             <button onClick={() => scrollToRef("project4")}>Project4</button>
           </li>
-          <ul className="menu2">
+          <ul className="icons">
             <li>
               <a
                 href="https://www.notion.so/KH-c6a74a27c5e14a40bd5ebf1cb81e0491"
@@ -131,15 +133,16 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%20(1).png?alt=media&token=e022f188-4b00-4751-8c6e-59bda0797ffc"
+                  src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%80%E1%85%B5%E1%86%BA%E1%84%92%E1%85%A5%E1%86%B8-removebg-preview.png?alt=media&token=59627e2c-f8db-4bc2-b8c5-de3c2da09b12"
                   alt="깃헙"
-                  style={{ width: "45px" }}
+                  style={{ width: "50px" }}
                 />
               </a>
             </li>
           </ul>
-          <div className="footer">
-            <p> CopyRight © 2024 Hwang SeonYoung All Rights Reserved.</p>
+          <div className="copyRight">
+            <p> CopyRight © 2024</p>
+            <p> Hwang SeonYoung All Rights Reserved.</p>
           </div>
         </ul>
       </div>

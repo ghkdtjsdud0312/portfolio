@@ -15,19 +15,22 @@ const AboutMeComp = styled.section`
   .container {
     h2 {
       text-align: center;
-      padding-top: 60px;
+      padding: 60px 0;
       font-weight: 600;
     }
     .wrapper {
+      box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.2);
+      margin: 0 auto;
+      width: 80%;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       flex-direction: row;
       .profile {
-        margin-right: 20%;
+        width: 30%;
         .profileImage {
-          width: 400px;
-          padding-bottom: 400px;
+          width: 300px;
+          padding-bottom: 300px;
           margin-left: 30%;
           position: relative;
           overflow: hidden;
@@ -36,16 +39,15 @@ const AboutMeComp = styled.section`
             width: 100%;
             position: absolute;
             left: 0;
-            bottom: -110px;
+            bottom: -80px;
           }
         }
       }
       .content {
-        margin-top: 10%;
+        width: 50%;
+        padding: 40px;
         .content_info {
-          display: flex;
-          flex-direction: column;
-          line-height: 50px;
+          line-height: 45px;
           p {
             font-weight: 600;
             font-size: 1.3em;
@@ -112,7 +114,7 @@ const AboutMe = ({ active }) => {
     <>
       <AboutMeComp id="about" active={active}>
         <div className="container">
-          <h2>About Me - 인적사항</h2>
+          <h2>About Me</h2>
           <div className="wrapper">
             <div className="profile">
               <div className="profileImage">

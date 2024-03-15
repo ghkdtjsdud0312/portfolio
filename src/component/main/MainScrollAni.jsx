@@ -1,5 +1,7 @@
 import { useRef, useEffect, useState } from "react";
 import MainPageComp from "./MainPageStyle";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const MainScrollAni = ({ active }) => {
   // 반짝이는 효과
@@ -27,7 +29,7 @@ const MainScrollAni = ({ active }) => {
   }, []);
 
   // 타이핑 효과
-  const txt = `FRONTEND DEVELOPER PORTFOLIO`;
+  const txt = `PORTFOLIO`;
   const [Text, setText] = useState("");
   const [Count, setCount] = useState(0);
 
@@ -48,23 +50,27 @@ const MainScrollAni = ({ active }) => {
   return (
     <MainPageComp id="main" active={active}>
       <div className="container">
-        <div className="text">
-          <h2>{Text}</h2>
-        </div>
-        <div className="text2">
-          <h3>
-            상상을 현실로 잇는 <br />
-            프론트엔드 개발자 포트폴리오에 오신걸 환영합니다 :)
-          </h3>
-          <span>→ 옆으로 슬라이드 하세요.</span>
-        </div>
-        <div className="button">
-          <a
-            href="https://www.notion.so/0a0a0b1ff67c4b33b18cc2777059b1b9"
-            target="_blank"
-            rel="noreferrer noopener">
-            <button>이력서 바로보기(Click!)</button>
-          </a>
+        <div className="mainText">
+          <div className="text">
+            <h2>{Text}</h2>
+          </div>
+          <div className="text2">
+            <h3>FE 개발자를 꿈꾸는 황선영입니다 :)</h3>
+          </div>
+          <div className="button">
+            <a
+              href="https://www.notion.so/0a0a0b1ff67c4b33b18cc2777059b1b9"
+              target="_blank"
+              rel="noreferrer noopener">
+              <button>
+                이력서 바로보기{" "}
+                <FontAwesomeIcon
+                  icon={faAngleRight}
+                  style={{ marginLeft: "10px" }}
+                />
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </MainPageComp>
