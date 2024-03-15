@@ -15,7 +15,7 @@ const MainPage = ({ activeSection }) => {
       {/* 각 섹션들 */}
       <AboutMe active={activeSection === "about"} />
       <Skills active={activeSection === "skills"} />
-      <ProjectCinepic active={activeSection === "project"} />
+      <ProjectCinepic active={activeSection === "project1"} />
       <ProjectWob active={activeSection === "project2"} />
       <ProjectWonderWalker active={activeSection === "project3"} />
       <ProjectClone active={activeSection === "project4"} />
