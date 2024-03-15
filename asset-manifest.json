@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e2a9f28c.css",
-    "main.js": "/portfolio/static/js/main.d73ee80a.js",
-    "static/media/wave6.jpg": "/portfolio/static/media/wave6.ee0e4983c8272bdaeb1a.jpg",
+    "main.js": "/portfolio/static/js/main.a61ca953.js",
+    "static/media/녹색배경.jpg": "/portfolio/static/media/녹색배경.f6e53854ba4836d2d0a9.jpg",
+    "static/media/녹색배경.jpg": "/portfolio/static/media/녹색배경.f6e53854ba4836d2d0a9.jpg",
     "index.html": "/portfolio/index.html",
     "main.e2a9f28c.css.map": "/portfolio/static/css/main.e2a9f28c.css.map",
-    "main.d73ee80a.js.map": "/portfolio/static/js/main.d73ee80a.js.map"
+    "main.a61ca953.js.map": "/portfolio/static/js/main.a61ca953.js.map"
   },
   "entrypoints": [
     "static/css/main.e2a9f28c.css",
-    "static/js/main.d73ee80a.js"
+    "static/js/main.a61ca953.js"
   ]
 }
