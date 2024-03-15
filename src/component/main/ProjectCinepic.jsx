@@ -1,6 +1,8 @@
 import ProjectComp from "./ProjectStyle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
+import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -66,7 +68,11 @@ const ProjectCinepic = ({ active }) => {
                 기존 사이트와의 차별점
               </div>
               <p>
-                v 씨네픽은 사이트를 이용하는 사람들이 직접 남긴 후기 및 비슷한
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                씨네픽은 사이트를 이용하는 사람들이 직접 남긴 후기 및 비슷한
                 분야를 선호하는 사람들과의 소통과 모임을 통해 활동할 수 있는
                 것이 차별적인 것이 포인트!
               </p>
@@ -76,22 +82,62 @@ const ProjectCinepic = ({ active }) => {
                 <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
                 프로젝트 기간 및 인원
               </div>
-              <p>v 2024.01.17 ~ 2024.02.21 / 6명</p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                2024.01.17 ~ 2024.02.21 / 6명
+              </p>
             </div>
             <div className="title">
               <div>
                 <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
                 개발 목표
               </div>
-              <p>v 화면 구성부터 백엔드까지 전반적인 구현 경험</p>
-              <p>v CRUD 구현 및 다양한 API 활용</p>
               <p>
-                v React와 SpringBoot, jwt, 웹소켓, Python을 이용한 여러 기술
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                화면 구성부터 백엔드까지 전반적인 구현 경험
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                CRUD 구현 및 다양한 API 활용
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                React와 SpringBoot, jwt, 웹소켓, Python을 이용한 여러 기술
                 익히기
               </p>
-              <p>v 머신러닝을 활용한 맞춤 영화 추천</p>
-              <p>v Elasticsearch를 활용한 영화 검색</p>
-              <p>v wbs 및 단위테스트 진행</p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                머신러닝을 활용한 맞춤 영화 추천
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                Elasticsearch를 활용한 영화 검색
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                wbs 및 단위테스트 진행
+              </p>
             </div>
             <div className="title">
               <div>
@@ -99,10 +145,34 @@ const ProjectCinepic = ({ active }) => {
                 개인 역할(front,back,DB)
               </div>
               <div className="role">
-                <p>v 지도 API(지역이나 구 검색,상세 정보)</p>
-                <p>v 취향 등록/수정(검색,선택(최대3개))</p>
-                <p>v 모달</p>
-                <p>v 빈응형</p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  지도 API(지역이나 구 검색,상세 정보)
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  취향 등록/수정(검색,선택(최대3개))
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  모달
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  반응형
+                </p>
               </div>
             </div>
 
@@ -131,18 +201,36 @@ const ProjectCinepic = ({ active }) => {
                 href="https://cinepic2024.site"
                 target="_blank"
                 rel="noreferrer noopener">
-                <button>씨네픽 사이트</button>
+                <button>
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  씨네픽 사이트
+                </button>
               </a>
               <a
                 href="https://boom-quit-f07.notion.site/cinepic-da06b8c802584538a6d9d91894e0dfb0"
                 target="_blank"
                 rel="noreferrer noopener">
-                <button>노션 보기</button>
+                <button>
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  노션 보기
+                </button>
               </a>
               <a
                 href="https://drive.google.com/file/d/1J9DdKEUUjsJXUvm6u-VhXbOb3FTYmh5f/view?usp=drive_link"
                 rel="noreferrer noopener">
-                <button>PDF 보기</button>
+                <button>
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  PDF 보기
+                </button>
               </a>
             </div>
           </div>

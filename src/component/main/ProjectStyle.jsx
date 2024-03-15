@@ -33,7 +33,6 @@ const ProjectComp = styled.section`
     }
     .titlebox {
       border-radius: 10px;
-      background-color: white;
       box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
       width: 55%;
       height: 800px;
@@ -44,11 +43,13 @@ const ProjectComp = styled.section`
           font-weight: 600;
           line-height: 50px;
           text-align: left;
+          color: #4b584f;
         }
         p {
           line-height: 28px;
           font-size: 1em;
           text-align: left;
+          margin-left: 20px;
         }
         button {
           width: 25%;
@@ -65,8 +66,6 @@ const ProjectComp = styled.section`
           }
         }
         .role {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
           white-space: nowrap;
           font-size: 1em;
           p {

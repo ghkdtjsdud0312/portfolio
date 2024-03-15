@@ -1,4 +1,8 @@
 import ProjectComp from "./ProjectStyle";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { faThumbTack } from "@fortawesome/free-solid-svg-icons";
+import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
@@ -49,32 +53,82 @@ const ProjectClone = ({ active }) => {
               />
             </SwiperSlide>
           </Swiper>
-          <div className="titlebox">
+          <div className="titlebox" style={{ height: "570px" }}>
             <div className="title">
-              <div>주제</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                주제
+              </div>
               <p>
-                v 대한항공 클론페이지를 똑같이 만들어봄으로써 HTML,CSS 구조
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                대한항공 클론페이지를 똑같이 만들어봄으로써 HTML,CSS 구조
                 익혀보기
               </p>
             </div>
             <div className="title">
-              <div>프로젝트 기간/인원</div>
-              <p>v 기간 :2023.10.09 ~ 2023.10.16 / 개인</p>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                프로젝트 기간/인원
+              </div>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                기간 :2023.10.09 ~ 2023.10.16 / 개인
+              </p>
             </div>
             <div className="title">
-              <div>개발 목표</div>
-              <p>전반적인 HTML과 CSS 익히기</p>
-              <p>화면 똑같이 구현해보기</p>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                개발 목표
+              </div>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                전반적인 HTML과 CSS 익히기
+              </p>
+              <p>
+                <FontAwesomeIcon
+                  icon={faThumbTack}
+                  style={{ color: "#839589", marginRight: "10px" }}
+                />
+                화면 똑같이 구현해보기
+              </p>
             </div>
             <div className="title">
-              <div>개인 역할(front)</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                개인 역할(front)
+              </div>
               <div className="role">
-                <p>HTML과 CSS 사용으로 대한항공 페이지 똑같이 구현해보기</p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  HTML과 CSS 사용으로 대한항공 페이지 똑같이 구현해보기
+                </p>
+                <p>
+                  <FontAwesomeIcon
+                    icon={faThumbTack}
+                    style={{ color: "#839589", marginRight: "10px" }}
+                  />
+                  반응형 구현해보기
+                </p>
               </div>
             </div>
 
             <div className="title">
-              <h3>사용 기술</h3>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                사용 기술
+              </div>
               <div className="skills">
                 <p>HTML</p>
                 <p>CSS</p>
@@ -82,23 +136,47 @@ const ProjectClone = ({ active }) => {
               </div>
             </div>
             <div className="title">
-              <div>Url 연결</div>
+              <div>
+                <FontAwesomeIcon icon={faPen} style={{ marginRight: "10px" }} />
+                Url 연결
+              </div>
               <a
                 href="https://boom-quit-f07.notion.site/6e9ef9b4ce6945e3a762a8cddacfa233"
                 target="_blank"
                 rel="noreferrer noopener">
-                <button>노션사이트</button>
+                <button>
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  노션사이트
+                </button>
               </a>
               <a
                 href="https://ghkdtjsdud0312.github.io/Myprj-ClonePage-/"
                 target="_blank"
                 rel="noreferrer noopener">
-                <button>클론사이트</button>
+                <button>
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  클론사이트
+                </button>
               </a>
               <a
                 href="https://drive.google.com/file/d/1zq3DRZ6ujNnHhtWn7VtL5CHL7v1vPKJz/view?usp=drive_link"
                 rel="noreferrer noopener">
-                <button>PDF 보기</button>
+                <button>
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faPaperclip}
+                    style={{ marginRight: "10px" }}
+                  />
+                  PDF 보기
+                </button>
               </a>
             </div>
           </div>
