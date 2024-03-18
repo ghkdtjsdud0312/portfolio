@@ -1,9 +1,10 @@
 import styled from "styled-components";
-import mainBg from "../../images/녹색배경.jpg";
+import headerBg from "../../images/headerBg.jpg";
 
 const HeaderComp = styled.header`
   position: fixed;
-  background-image: url(${mainBg});
+  /* background-color: #b2bfb0; */
+  background-image: url(${headerBg});
   left: 0;
   top: 0;
   height: 740px;
