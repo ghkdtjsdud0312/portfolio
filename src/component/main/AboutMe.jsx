@@ -72,39 +72,8 @@ const AboutMeComp = styled.section`
         }
       }
     }
-
-    @media screen and (max-width: 1360px) {
-      .container .title {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 5px; /* 이미지와 내용 사이의 여백 조절 */
-      }
-
-      .container .title img {
-        width: 25%;
-        margin: 2% auto;
-      }
-      .container .title .content {
-        width: 90%;
-        height: 520px;
-        padding: 5%;
-      }
-    }
-    @media screen and (max-width: 820px) {
-      .container .title .content .text .expression {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      .container .title .content .text .expression span {
-        width: 30%;
-      }
-    }
-    @media screen and (max-width: 480px) {
-      .container .title .content {
-        font-size: 0.8em;
-        font-weight: 600;
-        padding-right: 1%;
-      }
+    @media screen and (max-width: 768px) {
+      width: 100%;
     }
   }
 `;

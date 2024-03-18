@@ -5,21 +5,29 @@ const MainPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 740px;
   margin-left: 20%;
+  @media screen and (max-width: 768px) {
+    background-size: contain;
+  }
+  @media screen and (max-width: 480px) {
+    margin-top: -40px;
+  }
   .container {
     background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
+    width: 100%;
+    height: 740px;
     padding: 120px;
     @media screen and (max-width: 768px) {
-      margin-top: 14%;
+      padding: 50px;
     }
     @media screen and (max-width: 480px) {
-      margin-top: 20%;
     }
+
     .mainText {
       width: 50%;
       text-align: left;
+
       .text {
         text-align: left;
         line-height: 80px;
@@ -53,11 +61,6 @@ const MainPageComp = styled.section`
           color: #403c37;
           cursor: pointer;
           background-color: rgba(255, 255, 255, 0.2);
-        }
-        @media screen and (max-width: 768px) {
-          button {
-            width: 50%;
-          }
         }
       }
     }

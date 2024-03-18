@@ -6,7 +6,7 @@ const EndPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 720px;
   margin-left: 20%;
   .container {
     background-color: rgba(0, 0, 0, 0.2);
@@ -17,14 +17,13 @@ const EndPageComp = styled.section`
   }
   @media screen and (max-width: 768px) {
     .container {
-      margin-top: 15%;
+      width: 100%;
+      background-size: contain;
     }
   }
   @media screen and (max-width: 480px) {
     .container {
-      margin-top: 25%;
-      font-size: 3em;
-      text-align: center;
+      width: 100%;
     }
   }
 `;

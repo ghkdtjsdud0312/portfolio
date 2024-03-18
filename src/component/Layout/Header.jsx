@@ -3,14 +3,12 @@ import mainBg from "../../images/녹색배경.jpg";
 
 const HeaderComp = styled.header`
   position: fixed;
-  /* background-image: url(${mainBg}); */
+  background-image: url(${mainBg});
   left: 0;
   top: 0;
-  /* height: 740px; */
+  height: 740px;
   .header {
     flex-grow: 1;
-    background-image: url(${mainBg});
-    height: 740px;
     width: 240px;
     text-align: center;
     .menu {

@@ -87,33 +87,18 @@ const ProjectComp = styled.section`
       }
     }
   }
-  @media screen and (max-width: 768px) {
-    .project img {
-      margin-top: 70%;
-      height: 500px;
-    }
-    .project .titlebox .title .role {
+  @media screen and (max-width: 480px) {
+    .project {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-  }
-  @media screen and (max-width: 480px) {
     .project img {
-      margin-top: 100%;
     }
     .project .titlebox {
-      height: 850px;
-    }
-    .project .titlebox .title div {
-      line-height: 35px;
-    }
-    .project .titlebox .title button {
-      white-space: nowrap;
-      font-size: 0.8em;
-      width: 28%;
-    }
-    .project .titlebox .title .skills {
-      grid-template-columns: repeat(2, 1fr);
+      width: 85%;
+      height: 770px;
     }
   }
 `;
