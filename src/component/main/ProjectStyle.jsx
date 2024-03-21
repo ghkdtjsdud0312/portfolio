@@ -110,7 +110,25 @@ const ProjectComp = styled.section`
       font-size: 1.3em;
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
+    h3 {
+      font-size: 1em;
+      margin-left: 10%;
+      img {
+        width: 10%;
+      }
+      p {
+        line-height: 20px;
+      }
+    }
+    .project .titlebox {
+      margin-left: 3%;
+      height: auto;
+      font-size: 0.8em;
+    }
+    .project .titlebox .title button {
+      white-space: nowrap;
+    }
   }
 `;
 

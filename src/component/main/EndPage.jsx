@@ -5,6 +5,7 @@ import styled from "styled-components";
 const EndPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
+  background-repeat: no-repeat;
   height: 720px;
   margin-left: 10%;
   .container {
@@ -20,17 +21,14 @@ const EndPageComp = styled.section`
     height: 423px;
     .container {
       height: 423px;
+      font-size: 3em;
     }
   }
-  @media screen and (max-width: 768px) {
-    height: 423px;
+  @media screen and (max-width: 500px) {
+    height: 290px;
     .container {
-      height: 423px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .container {
-      width: 100%;
+      padding: 25%;
+      height: 290px;
     }
   }
 `;

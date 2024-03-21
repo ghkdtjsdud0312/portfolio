@@ -15,9 +15,6 @@ const MainPageComp = styled.section`
   @media screen and (max-width: 768px) {
     height: 423px;
   }
-  @media screen and (max-width: 480px) {
-    /* margin-top: -40px; */
-  }
   .container {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -30,7 +27,9 @@ const MainPageComp = styled.section`
     @media screen and (max-width: 768px) {
       height: 423px;
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 500px) {
+      padding: 70px;
+      height: 272px;
     }
 
     .mainText {
@@ -45,11 +44,17 @@ const MainPageComp = styled.section`
           @media screen and (max-width: 1100px) {
             font-size: 3em;
           }
+          @media screen and (max-width: 500px) {
+            font-size: 2em;
+          }
         }
       }
       .text2 {
         transition: opacity 1.8s;
         padding-top: 20px;
+        @media screen and (max-width: 500px) {
+          padding-top: 0;
+        }
         h3 {
           animation-duration: 0.3s;
           animation-iteration-count: infinite;
@@ -60,6 +65,10 @@ const MainPageComp = styled.section`
           white-space: nowrap;
           @media screen and (max-width: 1100px) {
             font-size: 1.4em;
+          }
+          @media screen and (max-width: 500px) {
+            font-size: 1.2em;
+            line-height: 10px;
           }
         }
       }
@@ -78,6 +87,9 @@ const MainPageComp = styled.section`
           background-color: rgba(255, 255, 255, 0.2);
           @media screen and (max-width: 1100px) {
             font-size: 1em;
+          }
+          @media screen and (max-width: 500px) {
+            width: 180px;
           }
         }
       }

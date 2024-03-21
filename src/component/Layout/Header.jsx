@@ -65,7 +65,8 @@ const HeaderComp = styled.header`
       font-size: 1.2em;
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
+    width: 25%;
   }
 `;
 
