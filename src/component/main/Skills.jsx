@@ -9,9 +9,8 @@ const SkillsComp = styled.section`
     padding-bottom: 50px;
     font-weight: 600;
   }
-  .skillIcon {
+  .container {
     width: 80%;
-    margin: 0 auto;
     box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
     h3 {
       text-align: left;
@@ -21,16 +20,16 @@ const SkillsComp = styled.section`
       text-decoration: underline;
     }
     .box {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 50px;
       text-align: center;
-      padding: 2%;
+      line-height: 50px;
       img {
-        width: 17%;
-        margin-right: 3%;
+        width: 6%;
+        margin-left: 7%;
       }
       .tool {
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
         p {
           font-size: 1em;
           font-weight: 600;
@@ -75,7 +74,7 @@ const Skills = ({ active }) => {
     <>
       <SkillsComp id="skills" active={active}>
         <h2>skills</h2>
-        <div className="skillIcon">
+        <div className="container">
           <h3>배운기술</h3>
           <div className="box">
             <div className="tool">

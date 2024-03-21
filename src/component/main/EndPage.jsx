@@ -5,7 +5,6 @@ import styled from "styled-components";
 const EndPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
-  width: 100%;
   height: 720px;
   margin-left: 10%;
   .container {

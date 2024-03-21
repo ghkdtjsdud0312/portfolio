@@ -3,12 +3,10 @@ import headerBg from "../../images/headerBg.jpg";
 
 const HeaderComp = styled.header`
   position: fixed;
-  background-image: url(${headerBg});
   left: 0;
-  top: 0;
+  background-image: url(${headerBg});
   height: 740px;
-  width: 240px;
-  .header {
+  .container {
     flex-grow: 1;
     width: 240px;
     text-align: center;
@@ -17,6 +15,7 @@ const HeaderComp = styled.header`
         font-size: 1.2em;
         font-weight: 600;
         line-height: 100px;
+        white-space: nowrap;
         cursor: pointer;
       }
       li {
@@ -53,28 +52,39 @@ const HeaderComp = styled.header`
     }
   }
   @media screen and (max-width: 768px) {
+    top: 0;
+    transform: translateY(0);
+    width: 20%;
+    /* height: 700px; */
+    background-position: center;
+    .container {
+      width: 100%;
+      white-space: nowrap;
+    }
+  }
+  /* @media screen and (max-width: 768px) {
     font-size: 1.2em;
-    opacity: 0.8;
-    width: 17%;
+    width: 18%;
     height: 645px;
-    .header .menu h2 {
+
+    .container .menu h2 {
       font-size: 0.9em;
     }
-    .header .menu li {
+    .container .menu li {
       white-space: nowrap;
       margin-right: 35%;
       margin-top: -5%;
     }
-    .header .icons {
+    .container .icons {
       margin-right: 30%;
     }
-    .header .icons li {
+    .container .icons li {
       margin: 0 5px;
     }
-    .header .copyRight {
+    .container .copyRight {
       margin-right: 35%;
     }
-  }
+  } */
   @media screen and (max-width: 480px) {
   }
 `;
@@ -89,10 +99,10 @@ const Header = () => {
   };
   return (
     <HeaderComp>
-      <div className="header">
+      <div className="container">
         <ul className="menu">
           <li>
-            <h2 onClick={() => scrollToRef("main")}>SeonYoung's Portfolio</h2>
+            <h2 onClick={() => scrollToRef("main")}>SY's Portfolio</h2>
           </li>
           <li>
             <button onClick={() => scrollToRef("about")}>About Me</button>

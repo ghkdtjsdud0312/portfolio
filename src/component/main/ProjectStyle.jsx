@@ -87,7 +87,7 @@ const ProjectComp = styled.section`
       }
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     .project {
       display: flex;
       flex-direction: column;
@@ -100,6 +100,20 @@ const ProjectComp = styled.section`
       width: 85%;
       height: 770px;
     }
+  }
+  @media screen and (max-width: 480px) {
+    /* .project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .project img {
+    }
+    .project .titlebox {
+      width: 85%;
+      height: 770px;
+    } */
   }
 `;
 

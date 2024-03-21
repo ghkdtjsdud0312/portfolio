@@ -4,11 +4,9 @@ import mainBg from "../../images/녹색배경.jpg";
 const MainPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
-  width: 100%;
   height: 740px;
-  margin-left: 10%;
+  margin-left: 16%;
   @media screen and (max-width: 768px) {
-    background-repeat: no-repeat;
   }
   @media screen and (max-width: 480px) {
     margin-top: -40px;
@@ -19,7 +17,8 @@ const MainPageComp = styled.section`
     height: 740px;
     padding: 120px;
     @media screen and (max-width: 768px) {
-      padding: 70px;
+      overflow-x: hidden;
+      /* padding: 70px; */
     }
     @media screen and (max-width: 480px) {
     }
