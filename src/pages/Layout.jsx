@@ -6,7 +6,6 @@ import ScrollToTop from "../component/Layout/scrollToTop";
 const LayoutComp = styled.div`
   main {
     flex-grow: 2;
-    /* width: 100%; */
   }
 `;
 

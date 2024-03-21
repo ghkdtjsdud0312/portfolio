@@ -51,6 +51,12 @@ const HeaderComp = styled.header`
       }
     }
   }
+  @media screen and (max-width: 1100px) {
+    width: 20%;
+    .container {
+      width: 100%;
+    }
+  }
   @media screen and (max-width: 768px) {
     width: 20%;
     .container {

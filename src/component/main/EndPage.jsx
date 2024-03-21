@@ -14,9 +14,15 @@ const EndPageComp = styled.section`
     color: #fff;
     height: 100%;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1100px) {
     background-size: contain;
     overflow-x: hidden;
+    height: 423px;
+    .container {
+      height: 423px;
+    }
+  }
+  @media screen and (max-width: 768px) {
     height: 423px;
     .container {
       height: 423px;

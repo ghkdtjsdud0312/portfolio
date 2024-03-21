@@ -73,16 +73,16 @@ const AboutMeComp = styled.section`
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 980px) {
     .container .wrapper {
       flex-direction: column;
       align-items: start;
     }
     .container .wrapper .profile .profileImage {
-      margin-left: 70%;
+      margin-left: 95%;
     }
     .container .wrapper .content {
-      margin-left: 10%;
+      margin-left: 15%;
     }
     .container .wrapper .content .content_info p {
       font-size: 1.5em;

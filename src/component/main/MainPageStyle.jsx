@@ -7,9 +7,12 @@ const MainPageComp = styled.section`
   background-repeat: no-repeat;
   height: 740px;
   margin-left: 16%;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1100px) {
     background-size: contain;
     overflow-x: hidden;
+    height: 423px;
+  }
+  @media screen and (max-width: 768px) {
     height: 423px;
   }
   @media screen and (max-width: 480px) {
@@ -21,6 +24,9 @@ const MainPageComp = styled.section`
     height: 100%;
     height: 740px;
     padding: 120px;
+    @media screen and (max-width: 1100px) {
+      height: 423px;
+    }
     @media screen and (max-width: 768px) {
       height: 423px;
     }
@@ -36,6 +42,9 @@ const MainPageComp = styled.section`
         h2 {
           font-size: 5em;
           color: #fff;
+          @media screen and (max-width: 1100px) {
+            font-size: 3em;
+          }
         }
       }
       .text2 {
@@ -49,6 +58,9 @@ const MainPageComp = styled.section`
           color: #fff;
           font-size: 1.8em;
           white-space: nowrap;
+          @media screen and (max-width: 1100px) {
+            font-size: 1.4em;
+          }
         }
       }
       .button {
@@ -64,6 +76,9 @@ const MainPageComp = styled.section`
           color: #403c37;
           cursor: pointer;
           background-color: rgba(255, 255, 255, 0.2);
+          @media screen and (max-width: 1100px) {
+            font-size: 1em;
+          }
         }
       }
     }

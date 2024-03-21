@@ -87,7 +87,7 @@ const ProjectComp = styled.section`
       }
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     h3 {
       font-size: 1.2em;
       img {
@@ -101,10 +101,13 @@ const ProjectComp = styled.section`
     .project {
       flex-direction: column;
     }
-    .project .swiper-container img {
-    }
     .project .titlebox {
       width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .project .titlebox .title {
+      font-size: 1.3em;
     }
   }
   @media screen and (max-width: 480px) {
