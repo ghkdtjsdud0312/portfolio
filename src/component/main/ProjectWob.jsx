@@ -20,10 +20,12 @@ const Project = ({ active }) => {
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/wob-logo.png?alt=media&token=53d56dac-cf54-4fdf-9842-a5d367a8e67d"
             alt="wob 로고 사진"
           />
-          WOB(WorkOut Buddy) - 운동 친구가 필요할 때 주변에 운동 메이트 구하기
+          WOB(WorkOut Buddy)
+          <p>- 운동 친구가 필요할 때 주변에 운동 메이트 구하기</p>
         </h3>
         <div className="project">
           <Swiper
+            autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
             style={{ width: "40%" }}

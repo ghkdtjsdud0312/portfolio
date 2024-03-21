@@ -19,10 +19,11 @@ const ProjectClone = ({ active }) => {
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/logo--koreanair-pc.png?alt=media&token=ed162c1c-fcec-4688-a2a1-cdec902c5bd0"
             alt="대한항공 로고 사진"
           />
-          대한항공 클론페이지 - 대한항공 페이지 클론해보기
+          대한항공 클론페이지
         </h3>
         <div className="project">
           <Swiper
+            autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
             style={{ width: "40%" }}

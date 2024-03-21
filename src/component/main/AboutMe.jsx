@@ -72,13 +72,27 @@ const AboutMeComp = styled.section`
         }
       }
     }
-    @media screen and (max-width: 768px) {
-      margin-left: 0;
-      .container {
-        width: 100%;
-      }
-      .container .wrapper .profile .profileImage {
-      }
+  }
+  @media screen and (max-width: 768px) {
+    .container .wrapper {
+      flex-direction: column;
+      align-items: start;
+    }
+    .container .wrapper .profile .profileImage {
+      margin-left: 70%;
+    }
+    .container .wrapper .content {
+      margin-left: 10%;
+    }
+    .container .wrapper .content .content_info p {
+      font-size: 1.5em;
+    }
+    .container .wrapper .content .content_info span {
+      font-size: 1.4em;
+    }
+    .container .wrapper .content .content_info .tag {
+      font-size: 1.4em;
+      white-space: nowrap;
     }
   }
 `;

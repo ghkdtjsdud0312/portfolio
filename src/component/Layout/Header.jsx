@@ -52,39 +52,13 @@ const HeaderComp = styled.header`
     }
   }
   @media screen and (max-width: 768px) {
-    top: 0;
-    transform: translateY(0);
     width: 20%;
-    /* height: 700px; */
-    background-position: center;
     .container {
       width: 100%;
       white-space: nowrap;
+      font-size: 1.2em;
     }
   }
-  /* @media screen and (max-width: 768px) {
-    font-size: 1.2em;
-    width: 18%;
-    height: 645px;
-
-    .container .menu h2 {
-      font-size: 0.9em;
-    }
-    .container .menu li {
-      white-space: nowrap;
-      margin-right: 35%;
-      margin-top: -5%;
-    }
-    .container .icons {
-      margin-right: 30%;
-    }
-    .container .icons li {
-      margin: 0 5px;
-    }
-    .container .copyRight {
-      margin-right: 35%;
-    }
-  } */
   @media screen and (max-width: 480px) {
   }
 `;

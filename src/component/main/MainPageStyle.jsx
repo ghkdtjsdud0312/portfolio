@@ -4,21 +4,25 @@ import mainBg from "../../images/녹색배경.jpg";
 const MainPageComp = styled.section`
   background-image: url(${mainBg});
   background-size: cover;
+  background-repeat: no-repeat;
   height: 740px;
   margin-left: 16%;
   @media screen and (max-width: 768px) {
+    background-size: contain;
+    overflow-x: hidden;
+    height: 423px;
   }
   @media screen and (max-width: 480px) {
-    margin-top: -40px;
+    /* margin-top: -40px; */
   }
   .container {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
+    height: 100%;
     height: 740px;
     padding: 120px;
     @media screen and (max-width: 768px) {
-      overflow-x: hidden;
-      /* padding: 70px; */
+      height: 423px;
     }
     @media screen and (max-width: 480px) {
     }

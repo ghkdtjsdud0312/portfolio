@@ -22,10 +22,6 @@ const SkillsComp = styled.section`
     .box {
       text-align: center;
       line-height: 50px;
-      img {
-        width: 6%;
-        margin-left: 7%;
-      }
       .tool {
         display: flex;
         align-items: center;
@@ -35,36 +31,38 @@ const SkillsComp = styled.section`
           font-weight: 600;
           padding-bottom: 30px;
         }
+        img {
+          width: 6%;
+          margin-left: 7%;
+        }
       }
     }
     .box2 {
       text-align: center;
       .tool2 {
         padding: 20px;
+
         img {
           width: 6%;
           margin-right: 5%;
         }
       }
     }
-    @media screen and (width: 768px) {
-      .box {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        height: 500px;
-      }
-      .box img {
-        width: 13%;
-      }
-      .box2 h3 {
-        margin-top: 3%;
-      }
-      .box2 .tool2 {
-        padding: 3%;
-      }
-      .box2 .tool2 img {
-        width: 7%;
-      }
+  }
+  @media screen and (width: 768px) {
+    .container h3 {
+      font-size: 1.4em;
+      color: #146314;
+    }
+    .container .box .tool p {
+      font-size: 1.2em;
+      margin-top: 30px;
+    }
+    .container .box .tool img {
+      width: 8%;
+    }
+    .container .box2 .tool2 img {
+      width: 7%;
     }
   }
 `;

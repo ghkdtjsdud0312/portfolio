@@ -20,10 +20,12 @@ const ProjectWonderWalker = ({ active }) => {
             alt="Wonderwalker 로고 사진"
             style={{ width: "11%" }}
           />
-          원더워커(WonderWalker) - 1인 여행자 커뮤니티 사이트
+          원더워커(WonderWalker)
+          <p>- 1인 여행자 커뮤니티 사이트</p>
         </h3>
         <div className="project">
           <Swiper
+            autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
             style={{ width: "40%" }}

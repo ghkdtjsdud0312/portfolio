@@ -20,11 +20,12 @@ const ProjectCinepic = ({ active }) => {
             src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/CinePicLogo.png?alt=media&token=5f8c28c4-af90-403f-a26c-935b5fc9bc57"
             alt="씨네픽사진"
           />
-          씨네픽(CinePic) - 사용자 맞춤 영화 추천 및 커뮤니티를 활용한 영화
-          플랫폼 사이트
+          씨네픽(CinePic)
+          <p>- 사용자 맞춤 영화 추천 및 커뮤니티를 활용한 영화 플랫폼 사이트</p>
         </h3>
         <div className="project">
           <Swiper
+            autoHeight={true}
             spaceBetween={50}
             slidesPerView={1}
             style={{ width: "40%" }}

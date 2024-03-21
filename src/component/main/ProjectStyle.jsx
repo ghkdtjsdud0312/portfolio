@@ -20,16 +20,16 @@ const ProjectComp = styled.section`
     display: flex;
     .swiper-container {
       width: 100%;
+      height: auto;
     }
     .swiper-slide {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
     }
     img {
       max-width: 100%;
-      max-height: 100%;
+      height: auto;
     }
     .titlebox {
       border-radius: 10px;
@@ -88,32 +88,26 @@ const ProjectComp = styled.section`
     }
   }
   @media screen and (max-width: 768px) {
-    .project {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    h3 {
+      font-size: 1.2em;
+      img {
+        width: 12%;
+      }
+      p {
+        line-height: 20px;
+        margin: 0 10px;
+      }
     }
-    .project img {
+    .project {
+      flex-direction: column;
+    }
+    .project .swiper-container img {
     }
     .project .titlebox {
-      width: 85%;
-      height: 770px;
+      width: 100%;
     }
   }
   @media screen and (max-width: 480px) {
-    /* .project {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .project img {
-    }
-    .project .titlebox {
-      width: 85%;
-      height: 770px;
-    } */
   }
 `;
 
