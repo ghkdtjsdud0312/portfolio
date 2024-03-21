@@ -6,9 +6,9 @@ const MainPageComp = styled.section`
   background-size: cover;
   width: 100%;
   height: 740px;
-  margin-left: 20%;
+  margin-left: 10%;
   @media screen and (max-width: 768px) {
-    background-size: contain;
+    background-repeat: no-repeat;
   }
   @media screen and (max-width: 480px) {
     margin-top: -40px;
@@ -19,7 +19,7 @@ const MainPageComp = styled.section`
     height: 740px;
     padding: 120px;
     @media screen and (max-width: 768px) {
-      padding: 50px;
+      padding: 70px;
     }
     @media screen and (max-width: 480px) {
     }
@@ -27,7 +27,6 @@ const MainPageComp = styled.section`
     .mainText {
       width: 50%;
       text-align: left;
-
       .text {
         text-align: left;
         line-height: 80px;
@@ -46,6 +45,7 @@ const MainPageComp = styled.section`
           line-height: 30px;
           color: #fff;
           font-size: 1.8em;
+          white-space: nowrap;
         }
       }
       .button {

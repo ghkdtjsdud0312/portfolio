@@ -3,11 +3,11 @@ import headerBg from "../../images/headerBg.jpg";
 
 const HeaderComp = styled.header`
   position: fixed;
-  /* background-color: #b2bfb0; */
   background-image: url(${headerBg});
   left: 0;
   top: 0;
   height: 740px;
+  width: 240px;
   .header {
     flex-grow: 1;
     width: 240px;
@@ -53,33 +53,29 @@ const HeaderComp = styled.header`
     }
   }
   @media screen and (max-width: 768px) {
+    font-size: 1.2em;
+    opacity: 0.8;
+    width: 17%;
+    height: 645px;
     .header .menu h2 {
-      font-size: 1.2em;
-      margin-left: 5%;
+      font-size: 0.9em;
     }
     .header .menu li {
-      margin-right: 2.5%;
+      white-space: nowrap;
+      margin-right: 35%;
+      margin-top: -5%;
     }
-    .header .menu li button {
-      font-size: 1em;
+    .header .icons {
+      margin-right: 30%;
     }
-    .header .menu2 li {
-      width: 35%;
+    .header .icons li {
+      margin: 0 5px;
+    }
+    .header .copyRight {
+      margin-right: 35%;
     }
   }
   @media screen and (max-width: 480px) {
-    .header .menu h2 {
-      font-size: 0.7em;
-    }
-    .header .menu li {
-      margin-right: 0.7%;
-    }
-    .header .menu li button {
-      font-size: 0.7em;
-    }
-    .header .menu2 li {
-      width: 15%;
-    }
   }
 `;
 

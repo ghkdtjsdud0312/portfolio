@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const SkillsComp = styled.section`
-  width: 100%;
+  width: 90%;
   padding: 60px 0;
-  margin-left: 20%;
+  margin-left: 15%;
   h2 {
     text-align: center;
     padding-bottom: 50px;

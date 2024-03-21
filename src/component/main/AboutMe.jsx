@@ -11,7 +11,7 @@ import {
 
 const AboutMeComp = styled.section`
   width: 100%;
-  margin-left: 20%;
+  margin-left: 10%;
   .container {
     h2 {
       text-align: center;
@@ -73,7 +73,12 @@ const AboutMeComp = styled.section`
       }
     }
     @media screen and (max-width: 768px) {
-      width: 100%;
+      margin-left: 0;
+      .container {
+        width: 100%;
+      }
+      .container .wrapper .profile .profileImage {
+      }
     }
   }
 `;

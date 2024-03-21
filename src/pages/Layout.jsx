@@ -9,7 +9,7 @@ const LayoutComp = styled.div`
   align-items: start;
   main {
     flex-grow: 2;
-    max-width: 1200px;
+    width: 100%;
   }
 `;
 
