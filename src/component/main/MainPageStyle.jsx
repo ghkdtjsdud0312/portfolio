@@ -3,33 +3,28 @@ import mainBg from "../../images/녹색배경.jpg";
 
 const MainPageComp = styled.section`
   background-image: url(${mainBg});
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 740px;
+  height: 100vh;
   margin-left: 16%;
   @media screen and (max-width: 1100px) {
-    background-size: contain;
     overflow-x: hidden;
-    height: 423px;
+    background-size: cover;
+    background-position: center;
   }
   @media screen and (max-width: 768px) {
-    height: 423px;
   }
   .container {
     background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 100%;
-    height: 740px;
+    height: 100vh;
     padding: 120px;
     @media screen and (max-width: 1100px) {
-      height: 423px;
+      padding: 80px;
     }
     @media screen and (max-width: 768px) {
-      height: 423px;
+      padding: 90px;
     }
     @media screen and (max-width: 500px) {
-      padding: 70px;
-      height: 272px;
     }
 
     .mainText {
