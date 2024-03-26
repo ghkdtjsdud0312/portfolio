@@ -219,7 +219,6 @@ const Project = ({ active }) => {
                 target="_blank"
                 rel="noreferrer noopener">
                 <button>
-                  {" "}
                   <FontAwesomeIcon
                     icon={faPaperclip}
                     style={{ marginRight: "10px" }}
@@ -232,7 +231,6 @@ const Project = ({ active }) => {
                 target="_blank"
                 rel="noreferrer noopener">
                 <button>
-                  {" "}
                   <FontAwesomeIcon
                     icon={faPaperclip}
                     style={{ marginRight: "10px" }}
@@ -244,7 +242,6 @@ const Project = ({ active }) => {
                 href="https://drive.google.com/file/d/1xJv11Da7n1iR2-9UDmLS7VHvsQODikne/view?usp=drive_link"
                 rel="noreferrer noopener">
                 <button>
-                  {" "}
                   <FontAwesomeIcon
                     icon={faPaperclip}
                     style={{ marginRight: "10px" }}

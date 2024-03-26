@@ -169,22 +169,11 @@ const ProjectWonderWalker = ({ active }) => {
               </div>
               <a href="https://boom-quit-f07.notion.site/WonderWalker-61839ed56a06422c95a44156d09b59be">
                 <button>
-                  {" "}
                   <FontAwesomeIcon
                     icon={faPaperclip}
                     style={{ marginRight: "10px" }}
                   />
                   노션 보기
-                </button>
-              </a>
-              <a href="{()=> false}">
-                <button>
-                  {" "}
-                  <FontAwesomeIcon
-                    icon={faPaperclip}
-                    style={{ marginRight: "10px" }}
-                  />
-                  PDF 보기
                 </button>
               </a>
             </div>
