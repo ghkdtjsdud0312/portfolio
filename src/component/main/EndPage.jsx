@@ -7,7 +7,7 @@ const EndPageComp = styled.section`
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
-  margin-left: 10%;
+  margin-left: 16%;
   .container {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 200px;

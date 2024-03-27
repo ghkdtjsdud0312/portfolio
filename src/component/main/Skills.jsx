@@ -17,34 +17,22 @@ const SkillsComp = styled.section`
       padding: 30px;
       font-size: 1.3em;
       font-weight: 600;
-      text-decoration: underline;
+      color: #146314;
     }
     .box {
       text-align: center;
-      line-height: 50px;
+      line-height: 100px;
       .tool {
         display: flex;
         align-items: center;
         margin-left: 10%;
         p {
-          font-size: 1em;
+          font-size: 1.3em;
           font-weight: 600;
-          padding-bottom: 30px;
         }
         img {
           width: 6%;
           margin-left: 7%;
-        }
-      }
-    }
-    .box2 {
-      text-align: center;
-      .tool2 {
-        padding: 20px;
-
-        img {
-          width: 6%;
-          margin-right: 5%;
         }
       }
     }
@@ -61,9 +49,6 @@ const SkillsComp = styled.section`
     .container .box .tool img {
       width: 8%;
     }
-    .container .box2 .tool2 img {
-      width: 7%;
-    }
   }
 `;
 
@@ -73,7 +58,7 @@ const Skills = ({ active }) => {
       <SkillsComp id="skills" active={active}>
         <h2>skills</h2>
         <div className="container">
-          <h3>배운기술</h3>
+          <h3>배운내용 중 활용가능한 기술</h3>
           <div className="box">
             <div className="tool">
               <p>FrontEnd</p>
@@ -93,24 +78,12 @@ const Skills = ({ active }) => {
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/4.png?alt=media&token=3fac5403-89a4-44a4-a920-499f6152ee80"
                 alt="react_logo"
               />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/5.png?alt=media&token=73db3a1c-8ad1-4c7b-8ba6-9c666576c7d3"
-                alt="react-native_logo"
-              />
             </div>
             <div className="tool">
               <p>BackEnd</p>
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/10.png?alt=media&token=ff39a9fa-27dc-4a99-acf9-b1fabb7c1a7d"
-                alt="python"
-              />
-              <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/15.png?alt=media&token=1f85df13-9c3e-4e4e-b1d5-be603240a933"
                 alt="java"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/17.png?alt=media&token=fcf56744-8ae3-41e3-804d-f7cd9b796b9a"
-                alt="머신러닝"
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/18.png?alt=media&token=0c06ad69-9595-4f7d-974d-5205ec8fa02d"
@@ -126,10 +99,6 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/7.png?alt=media&token=afb21dd4-d4a5-426f-9c20-8628147c30ea"
                 alt="dbeaver"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/8.png?alt=media&token=7c8b05b7-64cc-4d0c-9a77-c0dfb21fb429"
-                alt="elasticsearch"
               />
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/14.png?alt=media&token=e6225944-bf01-40f1-926e-f59b487c2594"
@@ -175,43 +144,6 @@ const Skills = ({ active }) => {
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%B5%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AB%20(1).png?alt=media&token=e022f188-4b00-4751-8c6e-59bda0797ffc"
                 alt="깃헙"
-              />
-            </div>
-          </div>
-          <div className="box2">
-            <h3>활용가능한 기술</h3>
-            <div className="tool2">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/1.png?alt=media&token=ae52b3a5-07cd-43ca-bd53-6607e6bc9318"
-                alt="HTML"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/2.png?alt=media&token=77182675-3300-4470-9aed-fe5e2e200fc8"
-                alt="CSS"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/4.png?alt=media&token=3fac5403-89a4-44a4-a920-499f6152ee80"
-                alt="리액트"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/6.png?alt=media&token=ef0e8bcd-080c-49d1-9cdc-c2a5f1d7d765"
-                alt="오라클"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/7.png?alt=media&token=afb21dd4-d4a5-426f-9c20-8628147c30ea"
-                alt="디비버"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/14.png?alt=media&token=e6225944-bf01-40f1-926e-f59b487c2594"
-                alt="mysql"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/15.png?alt=media&token=1f85df13-9c3e-4e4e-b1d5-be603240a933"
-                alt="자바"
-              />
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/kh-miniproject.appspot.com/o/18.png?alt=media&token=0c06ad69-9595-4f7d-974d-5205ec8fa02d"
-                alt="스트링부트"
               />
             </div>
           </div>
